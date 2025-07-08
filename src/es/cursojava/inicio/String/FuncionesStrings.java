@@ -41,7 +41,7 @@ public class FuncionesStrings {
 		System.out.println(cadena.indexOf("e"));
 		System.out.println(cadena.lastIndexOf("e"));
 		cadena.indexOf("e".toUpperCase());
-		cadena.indexOf("e");
+		System.out.println(cadena.indexOf("e"));
 		
 		System.out.println(separator);
 		
