@@ -10,7 +10,7 @@ public class Ejercicio9 {
 			
 			Scanner scan = new Scanner(System.in);
 			
-			
+			String email;
 			int optionChose = 0;
 			
 			while (!(optionChose==4)) {
@@ -49,6 +49,27 @@ public class Ejercicio9 {
 					}
 				}
 				System.out.println();
+			} 
+			} 
+		while(option.equals("Validate an email")) {
+			scan = new Scanner(System.in); 
+			
+			System.out.println("Write the email you wish to validate");
+			email = scan.nextLine();
+			
+			if (email.isBlank()||(email.isEmpty())) {
+				System.out.println("You haven't written an email address");
+				
+			
+			
+			if (email.contains("@")) {
+				
+				System.out.println("Your email is valid");
+				break;
+			} else { 
+				System.out.println("Your email is invalid");
+				
+			}
 			}
 //			System.out.println("* * * *\n*     *\n*     *\n* * * *");
 		}

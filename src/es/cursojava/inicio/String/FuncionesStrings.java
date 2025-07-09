@@ -40,8 +40,11 @@ public class FuncionesStrings {
 //		String E = "";
 		System.out.println(cadena.indexOf("e"));
 		System.out.println(cadena.lastIndexOf("e"));
-//		cadena.indexOf("e".toUpperCase());
-//		System.out.println(cadena.indexOf("e"));
+//		int firstE = cadena.indexOf("e".toUpperCase());
+//		String cadena2 = cadena.substring(6);
+		String cadena2 = cadena.substring(cadena.indexOf("e")+1);
+//		System.out.println(cadena2);
+		System.out.println(cadena2.indexOf("e")+6);
 		
 		System.out.println(separator);
 		
