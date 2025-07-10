@@ -27,7 +27,6 @@ public class EjercicioRuleta {
 		
 		while (moneyAmount>0) {
 			randomNumber =  (int) (Math.random()*37);
-			System.out.println(randomNumber);
 			System.out.println("\nWould you like to bet?");
 			 	action = scan.nextLine();
 			 	scan = new Scanner (System.in);
@@ -39,8 +38,8 @@ public class EjercicioRuleta {
 				 System.out.println("\nWhat would you like to bet on?\n----------------------------------\n\n1. A number\n2. Even numbers");
 				 System.out.println("3. Odd numbers");
 				 System.out.println("4. 1-12");
-				 System.out.println("5. 12-24");
-				 System.out.println("6. 24-36\n\n----------------------------------");
+				 System.out.println("5. 13-24");
+				 System.out.println("6. 25-36\n\n----------------------------------");
 				 betOptionChoose = scan.nextInt();
 				 	scan = new Scanner (System.in);
 				 	
@@ -50,8 +49,8 @@ public class EjercicioRuleta {
 				 	case 2 -> "even numbers";
 				 	case 3 -> "odd numbers";
 				 	case 4 -> "1-12";
-				 	case 5 -> "12-24";
-				 	case 6 -> "24-36";
+				 	case 5 -> "13-24";
+				 	case 6 -> "25-36";
 				 	default -> "\nYou have not selected an option, please choose the option by writing only the number.";
 				 };
 				 
@@ -84,7 +83,7 @@ public class EjercicioRuleta {
 
 						
 						if (moneyBet>moneyAmount) {
-							System.out.println("\nYou don't have enough money.\\nYou only have" + moneyAmount + "\\n\\n----------------------------------");
+							System.out.println("\nYou don't have enough money.\nYou only have " + moneyAmount + "\n\n----------------------------------");
 							continue;
 						}
 						
@@ -111,7 +110,7 @@ public class EjercicioRuleta {
 					moneyBet = scan.nextDouble();
 					scan = new Scanner (System.in);
 					if (moneyBet>moneyAmount) {
-						System.out.println("\nYou don't have enough money.\\nYou only have" + moneyAmount + "\\n\\n----------------------------------");
+						System.out.println("\nYou don't have enough money.\nYou only have " + moneyAmount + "\n\n----------------------------------");
 						continue;
 					}
 					
@@ -136,7 +135,7 @@ public class EjercicioRuleta {
 					moneyBet = scan.nextDouble();
 					scan = new Scanner (System.in);
 					if (moneyBet>moneyAmount) {
-						System.out.println("\nYou don't have enough money.\nYou only have" + moneyAmount + "\\n\\n----------------------------------");
+						System.out.println("\nYou don't have enough money.\nYou only have " + moneyAmount + "\n\n----------------------------------");
 						continue;
 					}
 					
@@ -165,7 +164,7 @@ public class EjercicioRuleta {
 					scan = new Scanner (System.in);
 					
 					if (moneyBet>moneyAmount) {
-						System.out.println("\nYou don't have enough money.\\nYou only have" + moneyAmount + "\\n\\n----------------------------------");
+						System.out.println("\nYou don't have enough money.\nYou only have " + moneyAmount + "\n\n----------------------------------");
 						continue;
 					}
 					
@@ -181,7 +180,7 @@ public class EjercicioRuleta {
 				 break;
 			 }
 			 
-			 //IF THEY CHOOSE TO BET ON 12-24: 
+			 //IF THEY CHOOSE TO BET ON 13-24: 
 				
 			 
 			 while (betOptionChoose == 5) {
@@ -191,7 +190,7 @@ public class EjercicioRuleta {
 					scan = new Scanner (System.in);
 					
 					if (moneyBet>moneyAmount) {
-						System.out.println("\nYou don't have enough money.\\nYou only have" + moneyAmount + "\\n\\n----------------------------------");
+						System.out.println("\nYou don't have enough money.\\nYou only have " + moneyAmount + "\\n\\n----------------------------------");
 						continue;
 					}
 					
@@ -218,7 +217,7 @@ public class EjercicioRuleta {
 					scan = new Scanner (System.in);
 					
 					if (moneyBet>moneyAmount) {
-						System.out.println("\nYou don't have enough money.\\nYou only have" + moneyAmount + "\\n\\n----------------------------------");
+						System.out.println("\nYou don't have enough money.\nYou only have " + moneyAmount + "\n\n----------------------------------");
 						continue;
 					}
 					

@@ -70,6 +70,7 @@ public class Ejercicio9 {
 				int beforeDot = 0;
 				int inbetweenArrobaDot = 0;
 				String emailAfterDot = "";
+				String emailAfterArroba = "";
 				
 				for(int i=0; i<email.length() ;i++) {
 					arroba = email.charAt(i);
@@ -79,10 +80,12 @@ public class Ejercicio9 {
 				}
 				
 				afterArroba = afterArroba + email.lastIndexOf("@");
+				emailAfterArroba = email.substring(afterArroba+1);
 				afterArroba = emailLength-afterArroba-1;
 				//System.out.println(afterArroba);
 				
-				beforeDot = beforeDot + email.indexOf(".");
+				//beforeDot = beforeDot + email.indexOf(".");
+				beforeDot = beforeDot + email.lastIndexOf(".");
 				//System.out.println(beforeDot);
 				//System.out.println(emailLength);
 				inbetweenArrobaDot = -emailLength+beforeDot+afterArroba;
@@ -100,12 +103,12 @@ public class Ejercicio9 {
 				
 				
 				
-				if ((email.contains(".")) && (!email.contains(" ")) && (afterDotLength>=2) && (afterDotLength<=6) && (arrobaCounter==1) && (!emailAfterDot.contains("@"))&&(inbetweenArrobaDot>=2)) {
-					System.out.println("Your email " + email + " is valid");
+				if ((email.contains(".")) && (!email.contains(" ")) && (afterDotLength>=2) && (afterDotLength<=6) && (arrobaCounter==1) && (emailAfterArroba.contains("."))&&(inbetweenArrobaDot>=2)) {
+					System.out.println("Your email " + email + " is valid\n");
 					break;
 				} 
 				else { 
-					System.out.println("Your email is invalid ");
+					System.out.println("Your email is invalid\n");
 					
 				}
 			
