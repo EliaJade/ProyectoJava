@@ -44,7 +44,8 @@ public class FuncionesStrings {
 //		String cadena2 = cadena.substring(6);
 		String cadena2 = cadena.substring(cadena.indexOf("e")+1);
 //		System.out.println(cadena2);
-		System.out.println(cadena2.indexOf("e")+6);
+		System.out.println(cadena2.indexOf("e")+cadena.indexOf("e")+1);
+		System.out.print(cadena2);
 		
 		System.out.println(separator);
 		

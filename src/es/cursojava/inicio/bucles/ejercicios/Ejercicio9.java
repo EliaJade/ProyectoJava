@@ -35,44 +35,81 @@ public class Ejercicio9 {
 		} else {
 			System.out.println(option);
 		}
-		if (option.equals("Paint a square")) {
-			System.out.println("How big do you want the square?");
-			int size = scan.nextInt();
-			for (int j = 1; j<=size; j++) {
-				for (int i = 1 ; i<=size;i++) {
-					if (j==1 || j==size || (i==1 || i==size)){
-						System.out.print("* ");
+			if (option.equals("Paint a square")) {
+				System.out.println("How big do you want the square?");
+				int size = scan.nextInt();
+				for (int j = 1; j<=size; j++) {
+					for (int i = 1 ; i<=size;i++) {
+						if (j==1 || j==size || (i==1 || i==size)){
+							System.out.print("* ");
+						}
+						else {
+							System.out.print("  ");
+							
+						}
 					}
-					else {
-						System.out.print("  ");
-						
+					System.out.println();
+				} 
+			} 
+			while(option.equals("Validate an email")) {
+				scan = new Scanner(System.in); 
+				
+				System.out.println("Write the email you wish to validate");
+				email = scan.nextLine();
+				
+				if (email.isBlank()||(email.isEmpty())) {
+					System.out.println("You haven't written an email address");
+				}
+				
+				
+				int emailLength = email.length();
+				int afterDotLength = 0;
+				char arroba = ' ';
+				int arrobaCounter = 0;
+				int afterArroba = 0;
+				int beforeDot = 0;
+				int inbetweenArrobaDot = 0;
+				String emailAfterDot = "";
+				
+				for(int i=0; i<email.length() ;i++) {
+					arroba = email.charAt(i);
+					if (arroba == '@'){	
+						arrobaCounter++;
 					}
 				}
-				System.out.println();
-			} 
-			} 
-		while(option.equals("Validate an email")) {
-			scan = new Scanner(System.in); 
-			
-			System.out.println("Write the email you wish to validate");
-			email = scan.nextLine();
-			
-			if (email.isBlank()||(email.isEmpty())) {
-				System.out.println("You haven't written an email address");
 				
-			
-			
-			if (email.contains("@")) {
+				afterArroba = afterArroba + email.lastIndexOf("@");
+				afterArroba = emailLength-afterArroba-1;
+				//System.out.println(afterArroba);
 				
-				System.out.println("Your email is valid");
-				break;
-			} else { 
-				System.out.println("Your email is invalid");
+				beforeDot = beforeDot + email.indexOf(".");
+				//System.out.println(beforeDot);
+				//System.out.println(emailLength);
+				inbetweenArrobaDot = -emailLength+beforeDot+afterArroba;
 				
+				//System.out.println(inbetweenArrobaDot);
+				
+				afterDotLength = afterDotLength + email.lastIndexOf(".");
+				//System.out.println(afterDotLength);
+				afterDotLength = emailLength-afterDotLength-1;
+				//System.out.println(afterDotLength);
+				 
+				emailAfterDot = email.substring(beforeDot+1);
+				//System.out.println(emailAfterDot);
+				
+				
+				
+				
+				if ((email.contains(".")) && (!email.contains(" ")) && (afterDotLength>=2) && (afterDotLength<=6) && (arrobaCounter==1) && (!emailAfterDot.contains("@"))&&(inbetweenArrobaDot>=2)) {
+					System.out.println("Your email " + email + " is valid");
+					break;
+				} 
+				else { 
+					System.out.println("Your email is invalid ");
+					
+				}
+			
 			}
-			}
-//			System.out.println("* * * *\n*     *\n*     *\n* * * *");
-		}
 		}
 	}
 }
