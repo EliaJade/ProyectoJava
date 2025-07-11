@@ -28,6 +28,10 @@ public class Ejercicio9 {
 			case 4 -> "Exit"; 
 			default -> "You have not selected an option, please pick a number.\n";
 		};
+		
+		
+		//PAINT A SQUARE
+		
 		if (option.equals("Paint a square") || option.equals("Validate an email") || option.equals("Add a student")) {
 			System.out.println("You have chosen the option: " + option + "\n");
 		} else if (option.equals("Exit")){
@@ -51,11 +55,18 @@ public class Ejercicio9 {
 					System.out.println();
 				} 
 			} 
+			
+			
+			//VALIDATE EMAIL
+			
+			
 			while(option.equals("Validate an email")) {
 				scan = new Scanner(System.in); 
 				
 				System.out.println("Write the email you wish to validate");
 				email = scan.nextLine();
+				
+				email.strip();
 				
 				if (email.isBlank()||(email.isEmpty())) {
 					System.out.println("You haven't written an email address");
@@ -82,12 +93,16 @@ public class Ejercicio9 {
 				afterArroba = afterArroba + email.lastIndexOf("@");
 				emailAfterArroba = email.substring(afterArroba+1);
 				afterArroba = emailLength-afterArroba-1;
+				
 				//System.out.println(afterArroba);
 				
 				//beforeDot = beforeDot + email.indexOf(".");
+				
 				beforeDot = beforeDot + email.lastIndexOf(".");
+				
 				//System.out.println(beforeDot);
 				//System.out.println(emailLength);
+				
 				inbetweenArrobaDot = -emailLength+beforeDot+afterArroba;
 				
 				//System.out.println(inbetweenArrobaDot);
