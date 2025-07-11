@@ -13,7 +13,6 @@ public class Ejercicio5 {
 		System.out.println("How many students are in this class?");
 		int classAmount = scan.nextInt();
 		double amountOfStudents = 0;
-		int studentGradeSaved = 0;
 		double grade = 0;
 		
 		amountOfStudents = amountOfStudents + classAmount;
