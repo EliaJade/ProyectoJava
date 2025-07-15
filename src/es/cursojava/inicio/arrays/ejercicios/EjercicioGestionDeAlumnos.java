@@ -18,6 +18,7 @@ public class EjercicioGestionDeAlumnos {
 			int i = 0;
 			int j = 0;
 			boolean found = false;
+			boolean classFull = false;
 			scan = new Scanner (System.in);
 			System.out.println(separator);
 			System.out.println("Choose an option (write the number):\n");
@@ -35,106 +36,118 @@ public class EjercicioGestionDeAlumnos {
 				
 			}
 			
+			switch(option) {
+			
 			//OPTION 1
-			
-			if(option==1) {
-				for (i=0;i<students.length;i++) {
-					for (j=0;j<students[0].length;j++) {
-						if(students[i][j]==null || students[i][j].isBlank()) {
-							System.out.println("\nWrite student for:"
-									+ "\nClass: " + (i+1) + " | Place: " + (j+1));
-							students[i][j] = scan.nextLine();
-							
-						}
-						
-					}
-				}
-			}
-			
-			//OPTION 2
-			
-			if(option==2) {
-				for (i=0;i<students.length;i++) {
-					System.out.println("Class " + (i+1) + ":");
-					for (j=0;j<students[0].length;j++) {
-						if (students[i][j]==(null)) {
-							students[i][j]=nullCorrector;
-						}
-						System.out.println("\tPlace "+ (j+1)+ ": " + students[i][j]);
-					}
-				}
-			}
-			
-			//OPTION 3
-			
-			if (option==3) {
-				scan = new Scanner (System.in);
-				System.out.println("What's the name of the student you wish to search for?");
-				String studentNameSearch = scan.nextLine();
-				
-
-				
-				for (i=0;i<students.length;i++) {
-					for (j=0;j<students[0].length;j++) {
-						if(!(students[i][j]==null)) {
-							if(students[i][j].toLowerCase().contains(studentNameSearch.toLowerCase())) {
-								//System.out.println(students[i][j]);
-								found = true;
-								System.out.println( students[i][j] + 
-										"\nClass: " + (i+1) + " Place: " + (j+1) + "\n");
+				case 1 -> {
+					for (i=0;i<students.length;i++) {
+						for (j=0;j<students[0].length;j++) {
+							if(students[i][j]==null ) {
+								System.out.println("\nWrite student for:"
+										+ "\nClass: " + (i+1) + " | Place: " + (j+1));
+								students[i][j] = scan.nextLine();
+								classFull = true;
+								
 							}
-							
-						}
+							if(students[i][j].isBlank()||students[i][j].isEmpty()) {
+								students[i][j]=null;
+							}
 						
+						}
+					}
+					if(!classFull) {
+						System.out.println("There's no free spaces");
 					}
 				}
-				if(!found) {
-					System.out.println("There's no students with that name\n");
+				
+				//OPTION 2
+				
+				case 2 -> {
+					for (i=0;i<students.length;i++) {
+						System.out.println("Class " + (i+1) + ":");
+						for (j=0;j<students[0].length;j++) {
+							
+							if (students[i][j]==(null)) {
+								System.out.println("\tPlace "+ (j+1)+ ": " + nullCorrector);
+							}
+							else if(students[i][j]!=null) {
+								System.out.println("\tPlace "+ (j+1)+ ": " + students[i][j]);
+								}
+							
+						}
+					}
 				}
 				
+				//OPTION 3
 				
-			}
-			
-			//OPTION 4
-			
-			if (option==4) {
-				scan = new Scanner (System.in);
-				System.out.println("What's the name of the student you wish to delete?");
-				String studentNameDelete = scan.nextLine();
-				
-				for (i=0;i<students.length;i++) {
-					for (j=0;j<students[0].length;j++) {
-						
-						if(!(students[i][j]==null)) {
-							if (students[i][j].equalsIgnoreCase(studentNameDelete)) {
-								found = true;
-								System.out.println( students[i][j] + 
-										"\nClass: " + (i+1) + " Place: " + (j+1) + "\n");
-								System.out.println("Are you sure you want to delete " + studentNameDelete + "?");
-								scan = new Scanner (System.in);
-								String delete = scan.nextLine();
-								if (delete.equalsIgnoreCase("yes")) {
-									students[i][j]=null;
-									
-									System.out.println( studentNameDelete + 
-											"\nClass: " + (i+1) + " Place: " + (j+1) + " was deleted\n");
-								}
-								else {
-									break;
+				case 3 -> {
+					scan = new Scanner (System.in);
+					System.out.println("What's the name of the student you wish to search for?");
+					String studentNameSearch = scan.nextLine();
+					
+
+					
+					for (i=0;i<students.length;i++) {
+						for (j=0;j<students[0].length;j++) {
+							if(!(students[i][j]==null)) {
+								if(students[i][j].toLowerCase().contains(studentNameSearch.toLowerCase())) {
+									//System.out.println(students[i][j]);
+									found = true;
+									System.out.println( students[i][j] + 
+											"\nClass: " + (i+1) + " Place: " + (j+1) + "\n");
 								}
 								
 							}
-	//						
+							
 						}
 					}
-				
+					if(!found) {
+						System.out.println("There's no students with that name\n");
+					}
+					
+					
 				}
-				if(found == false) {
-					System.out.println("There's no student with that name\n");
-				}
+				//OPTION 4
 				
-			}	
+				case 4 -> {
+					scan = new Scanner (System.in);
+					System.out.println("What's the name of the student you wish to delete?");
+					String studentNameDelete = scan.nextLine();
+					
+					for (i=0;i<students.length;i++) {
+						for (j=0;j<students[0].length;j++) {
+							
+								if (studentNameDelete.equalsIgnoreCase(students[i][j])) {
+									found = true;
+									System.out.println( students[i][j] + 
+											"\nClass: " + (i+1) + " Place: " + (j+1) + "\n");
+									System.out.println("Are you sure you want to delete " + studentNameDelete + "?");
+									scan = new Scanner (System.in);
+									String delete = scan.nextLine();
+									if (delete.equalsIgnoreCase("yes")) {
+										students[i][j]=null;
+										
+										System.out.println( studentNameDelete + 
+												"\nClass: " + (i+1) + " Place: " + (j+1) + " was deleted\n");
+									}
+									
+									
+								}
+		//						
+							
+						}
+					
+					}
+					if(found == false) {
+						System.out.println("There's no student with that name\n");
+					}
+					
+				}	
+			}
 		}
+								
+			
+		
 		System.out.println("Goodbye!");
 	}
 
