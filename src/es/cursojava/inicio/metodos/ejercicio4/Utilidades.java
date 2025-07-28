@@ -101,21 +101,32 @@ public class Utilidades {
 	}
 	
 	public static String pideDatoCadena(String textUser) {
-		String optionChose="0";
+		System.out.println("How old are you?");
+		Scanner scan = new Scanner (System.in); 
 		
-		textUser = textUser.toLowerCase();
-		if (textUser.contains("paint")||textUser.contains("square")) {
-				optionChose = "1";
-				System.out.println(":) You chose option " + optionChose);
-				
-			}
-			else {
-				optionChose = "4";
-				System.out.println("Goodbye!");
-			}
-		return (optionChose);
+		String age = scan.nextLine();
+		return (age);
 		
 		
 		
 	}
+	
+//	public static String pideDatoCadena(String textUser) {
+//		String optionChose="0";
+//		
+//		textUser = textUser.toLowerCase();
+//		if (textUser.contains("paint")||textUser.contains("square")) {
+//				optionChose = "1";
+//				System.out.println(":) You chose option " + optionChose);
+//				
+//			}
+//			else {
+//				optionChose = "4";
+//				System.out.println("Goodbye!");
+//			}
+//		return (optionChose);
+//		
+//		
+//		
+//	}
 }

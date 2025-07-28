@@ -35,7 +35,7 @@ public class CondicionalesSwitch {
 		default -> "No month selected";
 		};	
 	
-		System.out.println("Finished Old Switch");
+		System.out.println("Finished New Switch");
 	}
 
 }
