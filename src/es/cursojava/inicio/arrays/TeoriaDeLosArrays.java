@@ -20,6 +20,11 @@ public class TeoriaDeLosArrays {
 		
 		double [] notas = new double [15];
 		System.out.println(notas[0]);
+		
+
+		
 	}
+	
+	
 
 }

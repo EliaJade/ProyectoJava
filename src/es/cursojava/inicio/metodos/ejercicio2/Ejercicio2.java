@@ -4,9 +4,9 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		
-//		String [] usernames = {"Anthony", "Joe", "Sam", "Martha", "Atwon"};
+		String [] usernames = {"Anthony", "Joe", "Sam", "Martha", "Avwon"};
 		
-		System.out.println("There are " + numberOfNamesWithPattern(args) + " usernames that start with an A and has a t");
+		System.out.println("There are " + numberOfNamesWithPattern(usernames) + " usernames that start with an A and has a t");
 		
 		
 	}
