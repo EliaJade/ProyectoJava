@@ -7,14 +7,18 @@ public class Biblioteca {
 	private String name;
 	private Libro[] libros;
 	private Direccion direccion;
+	private int contadorLibros;
+	
+	
 	
 	
 	//CONSTRUCTOR
 	
-	public Biblioteca(String name, Libro[] libros, Direccion direccion) {
+	public Biblioteca(String name, Direccion direccion, int bookLimit) {
 		this.name=name;
-		this.libros=libros;
+		this.libros=new Libro[bookLimit];
 		this.direccion=direccion;
+		
 	}
 
 	
@@ -42,17 +46,28 @@ public class Biblioteca {
 	
 	//METODOS
 	
-	public Libro addLibro(Libro libro) {
-		return libro;
+	public void addLibro(Libro libro) {			//hay que pasarle un libro porque esta vacio el array
+		if (contadorLibros<=libros.length) {
+			libros[contadorLibros]=libro;
+			contadorLibros++;
+		}else {
+			System.out.println("La biblioteca esta llena");
+		}
 	}
 	
 	
-	public Libro[] showLibros() {
-		return libros;
+	public void showLibros() {
+		for(Libro libro : libros) {
+			if (libro!=null) {     		//Para no dar error cuando la biblioteca esta vacia
+				libro.showInfo();
+			}
+		}
 	}
 	
 	public void showInfoBiblioteca() {
-		System.out.println("LIBRARY:\n\tNAME: " + name + "\n\tBOOKS: " + libros.length + "\n\tADDRESS: " + direccion.getStreet() + direccion.getCity() + direccion.getPostCode());
+		direccion.showAdress();
+		showLibros();
+		//System.out.println("LIBRARY:\n\tNAME: " + name + "\n\tBOOKS: " + libros.length + "\n\tADDRESS: " + direccion.getStreet() + direccion.getCity() + direccion.getPostCode());
 	}
 	
 	

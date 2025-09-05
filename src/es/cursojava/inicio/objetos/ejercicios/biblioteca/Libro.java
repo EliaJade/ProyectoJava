@@ -42,7 +42,7 @@ public class Libro {
 	
 	//METODOS
 
-	public void showInfo() {
+	public void showInfo() { //not static because info changes on each book
 		System.out.println("BOOK:\n\tTITLE: " + title + "\n\tAUTHOR: " + author + "\n\tISBN: " + isbn + "\n\n");
 	}
 }

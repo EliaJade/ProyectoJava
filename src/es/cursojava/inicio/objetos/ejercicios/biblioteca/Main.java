@@ -4,16 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		
-		
+
+		Biblioteca library1 = new Biblioteca("Book Store 1", (new Direccion("John Street, ", "Madrid, ", "28011") ),10);
 		
 		Libro book1 = new Libro("Mistborn", "Brandon Sanderson", "111A");
+		library1.addLibro(book1); 											//Adds book to object library1 que tiene un array de libros vinculado al objeto
 		Libro book2 = new Libro("Six Of Crow", "Leigh Bardugo", "222B");
 		Libro book3 = new Libro("A Court Of Thorns And Roses", "Sarah J. Mass", "333C");
 		
-		Libro[] libros = {book1, book2, book3};
+//		Libro[] libros = {book1, book2, book3};
 		
-		Biblioteca library1 = new Biblioteca("Book Store 1", libros, (new Direccion("John Street, ", "Madrid, ", "28011") ));
 		
 		Biblioteca[] bibliotecas = {library1};
 		
