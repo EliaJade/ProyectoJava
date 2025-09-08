@@ -45,6 +45,6 @@ public class Direccion {
 	//METODOS
 	
 	public void showAdress() {
-		System.out.println("ADRESS:\n\tSTREET: " + street + "\n\tCITY: " + city + "\n\tPOSTCODE: " + postCode);
+		System.out.println("ADDRESS:\n\tSTREET: " + street + "\n\tCITY: " + city + "\n\tPOSTCODE: " + postCode);
 	}
 }

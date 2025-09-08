@@ -16,7 +16,7 @@ public class Biblioteca {
 	
 	public Biblioteca(String name, Direccion direccion, int bookLimit) {
 		this.name=name;
-		this.libros=new Libro[bookLimit];
+		this.libros=new Libro[bookLimit]; 				//bookLimit hace poner un numero de cuantos libros caben en la biblioteca
 		this.direccion=direccion;
 		
 	}
@@ -57,14 +57,17 @@ public class Biblioteca {
 	
 	
 	public void showLibros() {
+//		System.out.println(name);
 		for(Libro libro : libros) {
 			if (libro!=null) {     		//Para no dar error cuando la biblioteca esta vacia
 				libro.showInfo();
+			
 			}
 		}
 	}
 	
 	public void showInfoBiblioteca() {
+//		System.out.println(name);
 		direccion.showAdress();
 		showLibros();
 		//System.out.println("LIBRARY:\n\tNAME: " + name + "\n\tBOOKS: " + libros.length + "\n\tADDRESS: " + direccion.getStreet() + direccion.getCity() + direccion.getPostCode());
