@@ -2,16 +2,16 @@ package es.cursojava.inicio.objetos.ejercicios.tiendaRopa;
 
 public class Trousers {
 
-		private Color color;
-		private Size size;
-		private Price price;
+		private String color;
+		private String size;
+		private double price;
 		private Button button;
 		
 
 	
 		//CONSTRUCTOR
 
-		public Trousers(Color color, Size size, Price price, Button button) {
+		public Trousers(String color, String size, double price, Button button) {
 			this.color=color;
 			this.price=price;
 			this.size=size;
@@ -22,32 +22,32 @@ public class Trousers {
 		
 		//GET & SET
 		
-		public Color getColor() {
+		public String getColor() {
 			return color;
 		}
 		
 		
-		public void setColor(Color color) {
+		public void setColor(String color) {
 			this.color = color;
 		}
 		
 		
-		public Size getSize() {
+		public String getSize() {
 			return size;
 		}
 		
 		
-		public void setSize(Size size) {
+		public void setSize(String size) {
 			this.size = size;
 		}
 		
 		
-		public Price getPrice() {
+		public double getPrice() {
 			return price;
 		}
 		
 		
-		public void setPrice(Price price) {
+		public void setPrice(double price) {
 			this.price = price;
 		}
 
@@ -65,7 +65,9 @@ public class Trousers {
 		
 		//METODOS
 		
-		
+		public void showTrousers() {
+			System.out.println("This mannequin has trousers" + "\nCOLOR: " + color + "\nSIZE: " + size + "\nPRICE: " + price + "\nBUTTON: " + button + "\n");
+		}
 		
 		
 		

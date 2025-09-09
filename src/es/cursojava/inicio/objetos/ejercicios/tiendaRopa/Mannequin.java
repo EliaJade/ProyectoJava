@@ -18,17 +18,19 @@ public class Mannequin {
 
 	//CONSTRUCTORES
 	
-	public Mannequin() {
-		
+	public Mannequin(String id) {
+		this.id=id;
 	}
 	
-	public Mannequin(Shirt shirt, Trousers trousers) {
+	public Mannequin(String id, Shirt shirt, Trousers trousers) {
+		this.id=id;
 		this.shirt=shirt;
 		this.trousers=trousers;
 		
 	}
 	
-	public Mannequin(Dress dress) {
+	public Mannequin(String id, Dress dress) {
+		this.id=id;
 		this.dress=dress;
 		
 	}
@@ -36,7 +38,7 @@ public class Mannequin {
 
 	//GET & SET
 
-	public String getId() {
+	public  String getId() {
 		return id;
 	}
 
@@ -70,44 +72,101 @@ public class Mannequin {
 	
 	
 	public void showMannequin() {
-		dress.showDress();
-//		trousers.showTrousers();
-		shirt.showShirt();
+
+		System.out.println("\nMannequin " + this.id + "\n");
+		if (!(getShirt()==null)) {
+			clothesOn=true; 
+		}
+		if (!(getDress()==null)) {
+			clothesOn=true; 
+		}
+		if (!(getTrousers()==null)) {
+			clothesOn=true; 
+		}
+		
+		
+		if (clothesOn==false) {
+			System.out.println("The mannequin "  + id + " has no clothes\n");
+		}
+		if(dress!=null) {
+			dress.showDress();
+			
+		}
+		if(trousers!=null) {
+			trousers.showTrousers();
+		}
+		if(shirt!=null) {
+			shirt.showShirt();
+		}
+		
 		
 		
 	}
 	//METODOS
 	
-	public void Dressed() {
-		if (!(getShirt()==null)&&(getDress()==null)&&(getTrousers()==null)) {
+	public void dressed() {
+		if (!(this.shirt==null)) {
 			clothesOn=true; 
+			shirtOn=true;
 		}
-		
+		if (!(this.dress==null)) {
+			clothesOn=true; 
+			dressOn=true;
+		}
+		if (!(this.trousers==null)) {
+			clothesOn=true;
+			trousersOn=true;
+		}
 		
 		if (clothesOn==true) {	
-			System.out.println("The mannequin already has clothes");
+			if (dressOn==true) {
+				System.out.println("Mannequin " + id + " already has a dress on");
+			}
+			if ((shirtOn==true)&&(trousersOn==false)) {
+				System.out.println("Mannequin " + id + " already has a shirt on");
+				setTrousers(trousers);
+			}
+			if ((shirtOn==false)&&(trousersOn==true)) {
+				System.out.println("Mannequin " + id + " already has a trousers on");
+				setShirt(shirt);
+			}
+			System.out.println("Mannequin " + id + " already has clothes\n");
 		
-		} 
+		}
+		
 		if(clothesOn==false) {
-			DressShirt(shirt);
-			DressTrousers(trousers);
-			DressDress(dress);
+			if ((shirtOn==true)||(trousersOn==false)) {
+				System.out.println("This mannequin " + id + " doesn't have a shirt on");
+				setTrousers(trousers);
+			}
+			if ((shirtOn==false)||(trousersOn==true)) {
+				System.out.println("This mannequin " + id + " doesn't have a trousers on");
+				setShirt(shirt);
+			}
+			if(dressOn==false) {
+				System.out.println("Mannequin " + id + " doesn't have a dress on");
+			}
+			
+			
 		} 
-		else if ((shirtOn==true)||(trousersOn==false)) {
-			DressTrousers(trousers);
-		}
-		else if ((shirtOn==false)||(trousersOn==true)) {
-			DressShirt(shirt);
-		}
 		
 		
 		
 	}
-	public void DressShirt(Shirt shirt) {
+	
+	
+	public void undress() {
+		shirt = null;
+		trousers = null;
+		dress = null;
+	}
+	
+	
+	public void dressShirt(Shirt shirt) {
 		this.shirt=shirt;
 		
 	}
-	public void DressTrousers(Trousers trousers) {
+	public void dressTrousers(Trousers trousers) {
 		this.trousers=trousers;
 	}
 	public void DressDress(Dress dress) {
@@ -116,11 +175,7 @@ public class Mannequin {
 	
 	
 }
-//			while(clothesOn!=true) {
-//			System.out.println("How do you wish to dress the mannequin?\n\tA dress\n\tShirt and trousers");
-//			Scanner scan = new Scanner (System.in);
-//			String outfit = scan.nextLine();
-//			outfit = outfit.toLowerCase();
-//			if(outfit.equals("shirt")||outfit.equals("shirt and trousers")||outfit.equals("trousers")) {
-//				setShirt();
-//			}
+
+
+
+

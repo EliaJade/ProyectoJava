@@ -54,7 +54,7 @@ public class Dress {
 	
 
 	public void showDress() {
-		System.out.println(color+ "\n" + size + "\n" + price);
+		System.out.println("This mannequin has a dress" + "\nCOLOR: " + color + "\nSIZE: " + size + "\nPRICE: " + price);
 	}
 
 }
