@@ -1,0 +1,11 @@
+17:05:28.513 [main] INFO  es.cursojava.inicio.HolaMundoo - Hola
+17:07:35.789 [main] INFO  es.cursojava.inicio.HolaMundoo - Hola2
+17:11:52.745 [main] WARN  es.cursojava.inicio.HolaMundoo - Holaaa
+17:26:36.642 [main] DEBUG es.cursojava.inicio.HolaMundoo - Hola
+17:26:36.644 [main] WARN  es.cursojava.inicio.HolaMundoo - Holaaa
+17:26:49.107 [main] DEBUG es.cursojava.inicio.HolaMundoo - Hola
+17:26:49.108 [main] INFO  es.cursojava.inicio.HolaMundoo - Hola2
+17:26:49.109 [main] WARN  es.cursojava.inicio.HolaMundoo - Holaaa
+19:21:50.787 [main] DEBUG es.cursojava.inicio.HolaMundoo - Hola
+19:21:50.790 [main] INFO  es.cursojava.inicio.HolaMundoo - Hola2
+19:21:50.790 [main] WARN  es.cursojava.inicio.HolaMundoo - Holaaa

@@ -17,7 +17,7 @@ public class Ejercicio4 {
 		while(!sentance.isBlank()||!sentance.isEmpty()) {
 			int positionWhite = sentance.indexOf(" ");
 			word = sentance.substring(0,positionWhite);
-			//System.out.println(word);
+			System.out.println(word);
 			sentance = sentance.substring(positionWhite+1);
 			if(word.length()>wordLongest.length()) {
 				wordLongest = word;

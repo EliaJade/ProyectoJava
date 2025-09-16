@@ -72,7 +72,6 @@ public class Mannequin {
 	
 	
 	public void showMannequin() {
-
 		System.out.println("\nMannequin " + this.id + "\n");
 		if (!(getShirt()==null)) {
 			clothesOn=true; 
@@ -94,7 +93,8 @@ public class Mannequin {
 		}
 		if(trousers!=null) {
 			trousers.showTrousers();
-		}
+			trousers.getButton();
+			}
 		if(shirt!=null) {
 			shirt.showShirt();
 		}
@@ -159,6 +159,7 @@ public class Mannequin {
 		shirt = null;
 		trousers = null;
 		dress = null;
+		clothesOn = false;
 	}
 	
 	
@@ -169,7 +170,7 @@ public class Mannequin {
 	public void dressTrousers(Trousers trousers) {
 		this.trousers=trousers;
 	}
-	public void DressDress(Dress dress) {
+	public void dressDress(Dress dress) {
 		this.dress=dress;
 	}
 	

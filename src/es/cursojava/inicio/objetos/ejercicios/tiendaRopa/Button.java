@@ -47,6 +47,7 @@ public class Button {
 	//METODOS
 	
 	public void showButton() {
+		
 		System.out.println(color + shape + size);
 	}
 }

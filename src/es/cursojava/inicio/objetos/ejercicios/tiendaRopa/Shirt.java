@@ -5,7 +5,7 @@ public class Shirt {
 	private String color;
 	private String size;
 	private double price;
-	private Button[] button;
+	private Button[] buttons;
 	
 
 	//CONSTRUCTOR
@@ -14,7 +14,7 @@ public class Shirt {
 		this.color=color;
 		this.price=price;
 		this.size=size;
-		this.button=button;
+		this.buttons=button;
 	}
 	
 	
@@ -53,23 +53,23 @@ public class Shirt {
 
 
 	public Button[] getButton() {
-		for (Button buttons : button) {
+		for (Button buttons : buttons) {
 			buttons.showButton();
 		}
-		return button;
+		return buttons;
 	}
 
 
 
 	public void setButton(Button[] button) {
-		this.button = button;
+		this.buttons = button;
 		
 	}
 	
 	
 	
 	public void showShirt() {
-		System.out.println("This mannequin has shirt" + "\nCOLOR: " + color + "\nSIZE: " + size + "\nPRICE: " + price + "\nBUTTONS: " + getButton() + "\n");
+		System.out.println("This mannequin has shirt" + "\nCOLOR: " + color + "\nSIZE: " + size + "\nPRICE: " + price + "\nBUTTON: " + getButton() + "\n");
 	}
 	
 

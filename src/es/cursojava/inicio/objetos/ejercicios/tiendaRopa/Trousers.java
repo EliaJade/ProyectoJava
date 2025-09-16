@@ -66,7 +66,7 @@ public class Trousers {
 		//METODOS
 		
 		public void showTrousers() {
-			System.out.println("This mannequin has trousers" + "\nCOLOR: " + color + "\nSIZE: " + size + "\nPRICE: " + price + "\nBUTTON: " + button + "\n");
+			System.out.println("This mannequin has trousers" + "\nCOLOR: " + color + "\nSIZE: " + size + "\nPRICE: " + price + "\nBUTTON: " + button.getColor() + ", " + button.getShape() +  ", " + button.getSize()  + "\n");
 		}
 		
 		
