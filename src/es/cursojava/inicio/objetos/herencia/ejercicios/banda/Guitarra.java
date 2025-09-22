@@ -15,8 +15,8 @@ public class Guitarra extends Instrumento {
 	}
 	
 	public void afinar() {
+		Log.warn("Afinando guitarra electrica");
 		super.afinar();
-		Log.warn("Afinando guitarra");
 //		afinado=true;
 	}
 	

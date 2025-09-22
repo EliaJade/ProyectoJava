@@ -11,7 +11,7 @@ public class Instrumento {
 	
 	String nombre;
 	String tipo;
-	boolean afinado;
+	boolean afinado = false;
 	public Instrumento(String nombre, String tipo) {
 		super();
 		this.nombre = nombre;
@@ -38,19 +38,20 @@ public class Instrumento {
 
 	public void afinar() {
 		double numero = Math.random();
-		if(numero>0.4) {
+		if(numero>=0.4) {
 			afinado=true;
+
+			Log.info("El instrumento "+ nombre + " esta afinado");
+		} else   {
+			afinado = false;
+
+			Log.error("El instrumento "+ nombre + " no esta afinado");
 		}
-		if(afinado=true) {
-			Log.info("El instrumento "+ this.nombre + " esta afinado");
-		}
-		else {
-			Log.error("El instrumento "+ this.nombre + " no esta afinado");
-		}
+		
 	}
 	
 	public void tocar() {
-		Log.info("Tocando " + this.nombre);
+		Log.info("Tocando " + nombre);
 		
 	}
 	

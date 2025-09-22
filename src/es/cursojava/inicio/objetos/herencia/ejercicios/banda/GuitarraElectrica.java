@@ -16,7 +16,8 @@ public class GuitarraElectrica extends Guitarra{
 	}
 	
 	public void tocar() {
-		Log.info("Tocando muy alto");
+//		super.tocar();
+		Log.info("Tocando " + nombre + " muy alto");
 	}
 	
 	

@@ -19,8 +19,8 @@ public class Piano extends Instrumento{
 	}
 	
 	public void afinar() {
-		super.afinar();
 		Log.warn("Afinando piano");
+		super.afinar();
 //		afinado=true;
 	}
 }

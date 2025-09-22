@@ -19,7 +19,7 @@ public class Tambor extends Instrumento{
 	}
 	
 	public void aporrear() {
-		super.tocar();
+//		super.tocar();
 		Log.warn("Aporreando tambor");
 	}
 }

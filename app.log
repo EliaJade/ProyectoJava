@@ -9,3 +9,212 @@
 19:21:50.787 [main] DEBUG es.cursojava.inicio.HolaMundoo - Hola
 19:21:50.790 [main] INFO  es.cursojava.inicio.HolaMundoo - Hola2
 19:21:50.790 [main] WARN  es.cursojava.inicio.HolaMundoo - Holaaa
+17:09:29.345 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:09:29.354 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:09:29.354 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica esta afinado
+17:09:29.354 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:09:29.354 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:09:29.354 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+17:09:29.354 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:09:29.354 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:09:29.355 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:09:29.355 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:09:29.355 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando muy alto
+17:09:29.355 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:09:29.355 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:09:29.355 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:09:29.355 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:09:29.355 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:11:11.426 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:11:11.428 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:11:11.428 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica esta afinado
+17:11:11.428 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:11:11.430 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:11:11.430 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+17:11:11.430 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:11:11.430 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:11:11.430 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:11:11.430 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:11:11.430 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando muy alto
+17:11:11.430 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:11:11.430 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:11:11.430 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:11:11.430 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:11:11.430 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:12:20.352 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:12:49.032 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:13:09.833 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica esta afinado
+17:13:24.552 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:14:19.725 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:14:46.232 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+17:16:28.220 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:16:33.585 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra
+17:16:52.544 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:16:52.546 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:16:52.548 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando muy alto
+17:16:52.549 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:16:52.552 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:16:52.553 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:16:52.556 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:16:52.558 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:17:12.841 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+17:17:23.097 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:17:56.397 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+17:18:14.913 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica esta afinado
+17:18:47.381 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+17:19:55.038 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+17:20:07.761 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:21:54.215 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+17:22:39.982 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+17:22:51.662 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+17:23:00.973 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+17:23:06.655 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica esta afinado
+17:23:10.141 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+17:23:20.214 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+17:23:24.469 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+17:23:40.214 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+17:24:05.310 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+17:24:12.293 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando muy alto
+17:24:33.534 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:00:02.163 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:00:02.166 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+18:00:02.166 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:00:02.166 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:00:02.166 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:00:02.166 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+18:00:02.166 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:00:02.166 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:00:20.188 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:00:20.191 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+18:00:20.191 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:00:20.191 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:00:20.191 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:00:20.191 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+18:00:20.191 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:00:20.191 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:04:02.061 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:04:02.064 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+18:04:02.064 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:04:02.064 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:04:02.064 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:04:02.065 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+18:04:02.065 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:04:02.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:04:02.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:04:02.065 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:04:02.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:04:02.065 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:04:02.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:04:11.733 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:04:11.735 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra no esta afinado
+18:04:11.735 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:04:11.735 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:04:11.735 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:04:11.735 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+18:04:11.736 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:04:11.736 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:04:11.736 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:04:11.736 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:04:11.736 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:04:11.736 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:04:11.736 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:04:11.736 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:05:03.708 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:05:03.710 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra no esta afinado
+18:05:03.711 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:05:03.711 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica esta afinado
+18:05:03.711 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:05:03.711 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano esta afinado
+18:05:03.711 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:05:03.711 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:05:03.711 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:05:03.711 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:05:03.711 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:05:03.711 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:09:56.630 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:09:56.634 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra no esta afinado
+18:09:56.634 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:09:56.634 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:09:56.634 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:09:56.634 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano esta afinado
+18:09:56.634 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:09:56.634 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:09:56.634 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:09:56.635 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:09:56.635 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:09:56.635 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:09:56.635 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:09:56.635 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Aporreando tambor
+18:09:56.635 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:10:30.318 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:10:30.322 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra no esta afinado
+18:10:30.322 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:10:30.322 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica esta afinado
+18:10:30.322 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:10:30.322 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+18:10:30.322 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:10:30.322 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:10:30.322 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:10:30.322 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:10:30.322 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:10:30.322 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:10:30.322 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:10:30.322 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Aporreando tambor
+18:12:30.039 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:12:53.298 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:12:53.302 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra no esta afinado
+18:12:53.302 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:12:53.302 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:12:53.302 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:12:53.302 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+18:12:53.302 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:13:07.546 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:13:11.361 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:13:20.163 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:13:22.817 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:13:29.224 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:13:32.488 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:13:40.320 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:13:40.323 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Aporreando tambor
+18:14:08.093 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:14:08.096 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+18:14:08.096 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:14:08.096 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:14:08.096 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:14:08.096 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano esta afinado
+18:14:08.096 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:14:13.463 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:14:17.539 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:14:18.906 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:14:27.298 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:14:40.082 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Tambor
+18:14:40.084 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Aporreando tambor
+18:15:13.520 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:15:13.523 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+18:15:13.523 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:15:13.523 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:15:13.523 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:15:13.524 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano no esta afinado
+18:15:13.524 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:15:13.524 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:15:13.524 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:15:13.524 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:15:13.524 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:15:13.524 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:15:13.524 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Aporreando tambor
+18:16:38.616 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:16:38.619 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra esta afinado
+18:16:38.619 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando guitarra electrica
+18:16:38.619 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Guitarra Electrica no esta afinado
+18:16:38.619 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando piano
+18:16:38.619 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - El instrumento Piano esta afinado
+18:16:38.619 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Afinando tambor
+18:16:38.619 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra
+18:16:38.619 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Guitarra Electrica muy alto
+18:16:38.619 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Suena Fatal
+18:16:38.619 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Tocando Piano
+18:16:38.619 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.banda.Instrumento - Aporreando tambor
+20:37:35.858 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:37:35.860 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:56:55.086 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:56:55.088 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
