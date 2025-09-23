@@ -51,7 +51,6 @@ public class Hospital {
 		
 		hospital.abrirHospital();
 
-//		horaDeComer();
 	}
 	
 	
@@ -59,31 +58,59 @@ public class Hospital {
 	//METODOS
 	public void abrirHospital() {
 		
-		crearHabitaciones();
-		crearSalasDeEspera();
+		Habitacion[] habitaciones = crearHabitaciones();
+		Habitacion[] salasDeEspera = crearSalasDeEspera();
 		
-		crearPacientes();
-		ficharEmpleados(crearEmpleados());
+		Persona[] pacientes = crearPacientes();
+		Persona[] empleados = crearEmpleados();
+		Persona[][] personas = {pacientes, empleados};
+		ficharEmpleados(empleados);
 		
-		///crear un array de personas para devolverlo y usarlo en hora de comer
+//		pasarConsultas(personas, habitaciones, salasDeEspera);
+
+//		Log.warn("Es hora de comer");
+//		horaDeComer(personas);
+		
+		pasarConsultas( empleados, pacientes, habitaciones, salasDeEspera);
+//		Doctor.diagnosticarPaciente();
+		
+
+	
 		
 	}
 	
 	
 	
-	public void ficharEmpleados(EmpleadosHospital[] empleados) {
-		for (EmpleadosHospital empleado : empleados) {
-			empleado.fichar();
+	public void ficharEmpleados(Persona[] empleados) {
+		for (Persona empleado : empleados) {
+			((EmpleadosHospital) empleado).fichar();
 		}
 	}
 	
 	
-	public void horaDeComer(Persona[] personas) {
+	public void horaDeComer(Persona[][] personas) {
 		
-		Log.warn("Es hora de comer");
 		
 	
+		for (Persona[] persona : personas) {
+			for (Persona persona2 : persona) {
+
+				persona2.comer();
+			}
+		}
+		
+	}
+	
+	public void horaDeComer(Persona[] personas) {
+		
+		
+		
 		for (Persona persona : personas) {
+			if (persona!=null) {
+
+				persona.comer();
+			}
+			
 //			if(persona instanceof Paciente) {
 //
 //				((Paciente) persona).comer();
@@ -101,12 +128,83 @@ public class Hospital {
 //				((Enfermo) persona).comer();
 //				persona.comer();
 //			}
-			persona.comer();
 		}
 		
 	}
 	
-	public void pasarConsultas() {
+	public Enfermo[] pasarConsultas(Persona[][] persona, Habitacion[] habitaciones, Habitacion[] salaDeEspera) {
+		boolean estadoDelPaciente; //false meaning sick, true meaning healthy
+		int j=0;
+		Enfermo[] enfermos = new Enfermo[habitaciones.length];
+		for(int i=0 ; i<persona[0].length ; i++) {
+			Log.info("El " + persona[1][1].getNombre() + " ha cogido el paciente " + persona[0][i].getNombre() + " de la sala " + salaDeEspera[i].getNumero());
+
+			
+			if(j<habitaciones.length) {
+				int numero = (int) (Math.random()*10);
+				System.out.println(numero);
+				if( numero >= 8 ) {
+					estadoDelPaciente = false;
+					Log.info("En la habitacion " + habitaciones[j].getNumero() + " "+ persona[1][0].getNombre() + " atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore");
+//					habitaciones[j]=;
+					Enfermo enfermo = new Enfermo ( persona[0][i].getNombre(), persona[0][i].getEdad(), "lupus");
+					enfermos[j]= enfermo;
+					
+					j++;
+					
+				}
+				else {
+					estadoDelPaciente = true;
+					Log.info("En la habitacion " + habitaciones[j].getNumero() +" "+ persona[1][0].getNombre() + " atiende al paciente y encuentra que esta sano");
+					
+				}
+			}
+			else {
+				Log.error("No hay mas espacio para los pacientes entonces le envia a otro hospital");
+			}
+			
+			}
+		return enfermos;
+		
+	}
+	public Enfermo[] pasarConsultas(Persona[] empleados, Persona[] pacientes, Habitacion[] habitaciones, Habitacion[] salaDeEspera) {
+		boolean estadoDelPaciente; //false meaning sick, true meaning healthy
+		int j=0;
+		Enfermo[] enfermos = new Enfermo[habitaciones.length];
+		for(int i=0 ; i<pacientes.length ; i++) {
+			Log.info("El " + empleados[1].getNombre() + " ha cogido el paciente " + pacientes[i].getNombre() + " de la sala " + salaDeEspera[i].getNumero());
+
+			
+			if(j<habitaciones.length) {
+				int numero = (int) (Math.random()*10);
+				System.out.println(numero);
+				if( numero >= 8 ) {
+					estadoDelPaciente = false;
+					Log.info("En la habitacion " + habitaciones[j].getNumero() + " "+empleados[0].getNombre() + " atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore");
+//					habitaciones[j]=;
+					Enfermo enfermo = new Enfermo ( pacientes[i].getNombre(), pacientes[i].getEdad(), "lupus");
+					enfermos[j]= enfermo;
+					pacientes[i]= null;
+					Log.warn("Es hora de comer");
+					horaDeComer(empleados);
+					horaDeComer(pacientes);
+					horaDeComer(enfermos);
+					j++;
+					
+				}
+				else {
+					estadoDelPaciente = true;
+					Log.info("En la habitacion " + habitaciones[j].getNumero() +" "+ empleados[0].getNombre() + " atiende al paciente y encuentra que esta sano");
+
+					pacientes[i]= null;
+				}
+			}
+			else {
+				Log.error("No hay mas espacio para los pacientes entonces le envia a otro hospital");
+			}
+			
+			}
+		return enfermos;
 		
 	}
 	
@@ -114,7 +212,8 @@ public class Hospital {
 		Habitacion hab1 = new Habitacion(1);
 		Habitacion hab2 = new Habitacion(2);
 		//añadir texto para que sepamos que se han creado los objetos
-		
+
+		Log.debug("Se ha creado las habitaciones:\n\t" + hab1.getNumero() + "\n\t" + hab2.getNumero());
 		
 		Habitacion[] habitaciones = {hab1, hab2};
 		return habitaciones;
@@ -124,6 +223,8 @@ public class Hospital {
 		Habitacion sala1 = new Habitacion(3);
 		Habitacion sala2 = new Habitacion(4);
 		Habitacion sala3 = new Habitacion(5);
+
+		Log.debug("Se ha creado las salas:\n\t" + sala1.getNumero() + "\n\t" + sala2.getNumero() + "\n\t" + sala3.getNumero());
 
 		Habitacion[] salasDeEspera = {sala1, sala2, sala3};
 		return salasDeEspera;
@@ -135,6 +236,7 @@ public class Hospital {
 		Paciente paciente2 = new Paciente("Juan", 50, new String[]{"Dolor de pecho", "Poca circulacion de sangre en las manos"});
 		Paciente paciente3 = new Paciente("Natalia", 38, new String[]{"Dolor de tripa", "Perdida de apetito", "Vomitos"});
 		
+		Log.debug("Se ha creado los pacientes:\n\t" + paciente1.getNombre() + "\n\t" + paciente2.getNombre() + "\n\t" + paciente3.getNombre());
 //		Persona paciente0 = new Persona("Joe", 30);
 //		
 //		EmpleadosHospital doctor0 = (EmpleadosHospital) paciente0;
@@ -147,6 +249,8 @@ public class Hospital {
 	public EmpleadosHospital[] crearEmpleados() {
 		EmpleadosHospital doctor = new Doctor("Dr. Blanco", 34, "Turno de mañana", "Doctor de familia");
 		EmpleadosHospital enfermero = new Enfermero("Enfermero Guille", 28, "turno de mañana", 1);
+		
+		Log.info("Se ha creado los empleados:\n\t" + doctor.getNombre() + "\n\t" + enfermero.getNombre());
 		
 		EmpleadosHospital[] empleados = {doctor, enfermero};
 		

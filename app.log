@@ -218,3 +218,1467 @@
 20:37:35.860 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
 20:56:55.086 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
 20:56:55.088 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+17:58:41.221 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+17:58:41.224 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+17:59:35.499 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+17:59:35.503 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+17:59:35.503 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+17:59:35.503 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+17:59:35.503 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+17:59:35.503 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+17:59:35.503 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+17:59:35.503 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+17:59:35.503 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:00:24.397 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:00:24.400 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:00:24.400 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:00:24.400 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:00:24.400 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:00:24.400 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:00:24.400 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:00:24.400 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:27:10.668 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@3d299e3
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@55a561cf
+18:27:10.672 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@b62fe6d
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@13acb0d1
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@3e3047e6
+18:27:10.672 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@19d37183
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@1a0dcaa
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@3bd40a57
+18:27:10.673 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@11dc3715
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Enfermero@69930714
+18:27:10.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:27:10.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:27:10.674 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:27:10.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:27:10.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:27:10.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:27:10.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:27:10.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:27:26.180 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@3d299e3
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@55a561cf
+18:27:26.184 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@b62fe6d
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@13acb0d1
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@3e3047e6
+18:27:26.184 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@19d37183
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@1a0dcaa
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@3bd40a57
+18:27:26.185 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@11dc3715
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Enfermero@69930714
+18:27:26.186 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:27:26.186 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:27:26.186 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:27:26.186 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:27:26.186 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:27:26.186 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:27:26.186 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:27:26.186 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:28:22.137 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@3d299e3
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@55a561cf
+18:28:22.140 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@b62fe6d
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@13acb0d1
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@3e3047e6
+18:28:22.141 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@19d37183
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@1a0dcaa
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@3bd40a57
+18:28:22.142 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@11dc3715
+	es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Enfermero@69930714
+18:28:22.143 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:28:22.143 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:28:22.143 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:28:22.143 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:28:22.143 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:28:22.143 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:28:22.143 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:28:22.143 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:29:57.946 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:29:57.951 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:29:57.953 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:29:57.954 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:29:57.954 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:29:57.954 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:29:57.954 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:29:57.954 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:29:57.954 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:29:57.955 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:29:57.955 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:29:57.955 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:34:08.700 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:34:08.704 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:34:08.706 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:34:08.706 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Hospital1 ha cogido el paciente Hospital1 de la sala [Ljava.lang.String;@1d76aeea
+18:34:08.707 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:34:08.707 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:39:52.527 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:39:52.531 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:39:52.534 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Hospital1 ha cogido el paciente Hospital1 de la sala [Ljava.lang.String;@1d76aeea
+18:39:52.534 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:39:52.534 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:43:55.218 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:43:55.223 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:43:55.226 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:43:55.226 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:43:55.227 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:43:55.227 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:44:14.650 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:44:14.655 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:44:14.657 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:44:14.657 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:44:14.657 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:44:14.657 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:44:14.658 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente@1d76aeea ha cogido el paciente Hospital1 de la sala [Ljava.lang.String;@78dd667e
+18:44:14.658 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:44:14.658 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:44:14.658 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:44:14.658 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:44:14.658 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:44:14.658 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:44:32.825 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:44:32.829 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:44:32.831 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:44:32.831 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Bob ha cogido el paciente Hospital1 de la sala [Ljava.lang.String;@1d76aeea
+18:44:32.832 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:44:32.832 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:45:01.057 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:45:01.062 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:45:01.063 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:45:01.064 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:45:01.064 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:45:01.064 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:45:01.064 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Dr. Blanco ha cogido el paciente Hospital1 de la sala [Ljava.lang.String;@1d76aeea
+18:45:01.064 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:45:01.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:45:01.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:45:01.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:45:01.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:45:01.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:47:25.667 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:47:25.671 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:47:25.674 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:47:25.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala [Ljava.lang.String;@1d76aeea
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala [Ljava.lang.String;@1d76aeea
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala [Ljava.lang.String;@1d76aeea
+18:47:25.675 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:47:25.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:52:31.305 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:52:31.310 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:52:31.312 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:52:31.312 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@1d76aeea
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@78dd667e
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@10db82ae
+18:52:31.313 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:52:31.313 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+18:52:52.122 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+18:52:52.126 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+18:52:52.129 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+18:52:52.129 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+18:52:52.129 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+18:52:52.129 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+18:52:52.132 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+18:52:52.132 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+18:52:52.132 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+18:52:52.132 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+18:52:52.132 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+18:52:52.132 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+18:52:52.132 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+18:52:52.133 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+18:52:52.133 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:03:58.060 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:03:58.065 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:03:58.067 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:03:58.067 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:03:58.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:03:58.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:03:58.070 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:03:58.071 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@7fc2413des.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@f8c1ddd atiende al paciente y encuentra que esta sano
+19:03:58.071 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:03:58.071 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@70be0a2bes.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@f8c1ddd atiende al paciente y encuentra que esta sano
+19:03:58.071 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:04:40.585 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:04:40.589 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:04:40.591 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:04:40.592 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:04:40.592 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:04:40.593 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:04:40.596 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:04:40.597 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:04:40.597 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:04:40.597 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:04:40.597 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:04:40.597 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:04:40.598 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:04:40.598 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:04:40.598 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:05:45.840 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:05:45.845 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:05:45.847 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:05:45.847 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:05:45.847 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:05:45.847 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:05:45.850 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:05:45.851 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:05:45.851 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:05:45.851 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:05:45.851 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:05:45.851 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:05:45.851 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:05:45.851 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:05:45.851 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:06:11.963 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:06:11.969 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:06:11.971 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:06:11.971 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:06:11.971 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:06:11.972 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:06:11.974 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:06:11.975 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@7fc2413des.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@f8c1ddd atiende al paciente y encuentra que esta sano
+19:06:11.975 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:06:11.975 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@7fc2413des.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@f8c1ddd atiende al paciente y encuentra que esta sano
+19:06:11.975 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:06:11.975 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Habitacion@7fc2413des.cursojava.inicio.objetos.herencia.ejercicios.hospital.Doctor@f8c1ddd atiende al paciente y encuentra que esta sano
+19:06:11.975 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:06:11.976 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:06:11.976 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:06:11.976 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:06:11.976 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:06:11.976 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:06:39.411 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:06:39.415 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:06:39.417 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:06:39.417 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:06:39.417 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:06:39.418 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:06:39.420 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1Dr. Blanco atiende al paciente y encuentra que esta sano
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1Dr. Blanco atiende al paciente y encuentra que esta sano
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1Dr. Blanco atiende al paciente y encuentra que esta sano
+19:06:39.422 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:06:39.422 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:06:39.423 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:07:06.439 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:07:06.443 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:07:06.445 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:07:06.445 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:07:06.446 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:07:06.446 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:07:06.448 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:07:06.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:07:06.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:07:06.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:07:06.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:07:06.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:07:06.450 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:07:06.451 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:07:06.451 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:07:06.451 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:07:06.451 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:07:06.451 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:09:37.672 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:09:37.677 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:09:37.679 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:09:37.679 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:09:37.679 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:09:37.679 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:09:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:09:37.683 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:09:37.685 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:09:37.685 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:09:46.039 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:09:46.043 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:09:46.046 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:09:46.046 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:09:46.047 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:09:46.047 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:09:46.049 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:09:46.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:09:46.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:09:46.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:09:46.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:09:46.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:09:46.051 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:09:46.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:09:46.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:09:46.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:09:46.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:09:46.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:10:27.741 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:10:27.745 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:10:27.747 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:10:27.748 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:10:27.748 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:10:27.748 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:10:27.750 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:10:27.753 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:10:27.753 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:10:38.225 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:10:38.229 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:10:38.231 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:10:38.232 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:10:38.232 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:10:38.232 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:10:38.234 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:10:38.236 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:10:38.237 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:10:38.237 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:10:54.351 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:10:54.355 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:10:54.357 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:10:54.358 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:10:54.359 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:10:54.359 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:10:54.361 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:10:54.363 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:10:54.363 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:10:54.364 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:13:42.494 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:13:42.499 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:13:42.501 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:13:42.501 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:13:42.502 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:13:42.502 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:13:42.504 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:13:42.505 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes
+19:13:42.505 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:13:42.505 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes
+19:13:42.505 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:13:42.505 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes
+19:13:42.505 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:13:42.505 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:13:42.505 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:13:42.505 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:13:42.505 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:13:42.505 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:14:01.630 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:14:01.635 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:14:01.637 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:14:01.637 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:14:01.637 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:14:01.637 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:14:01.640 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:14:01.641 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:14:01.641 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:14:01.641 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:14:01.643 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:14:01.643 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:14:01.643 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:14:01.643 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:14:01.643 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:14:01.643 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:14:01.643 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:14:01.643 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:14:11.406 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:14:11.410 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:14:11.412 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:14:11.412 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:14:11.413 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:14:11.413 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:14:11.416 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:14:11.418 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:11.418 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:14:11.418 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:11.419 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:14:11.419 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:14:11.419 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:14:11.419 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:14:11.419 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:14:11.419 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:14:11.419 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:14:11.419 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:14:22.038 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:14:22.042 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:14:22.044 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:14:22.046 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:14:22.046 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:14:22.046 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:14:22.049 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:14:22.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:22.051 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:14:22.052 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:14:22.052 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:14:25.624 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:14:25.628 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:14:25.630 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:14:25.630 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:14:25.631 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:14:25.631 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:14:25.633 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:25.636 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:14:25.636 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:14:25.637 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:14:25.637 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:14:37.669 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:14:37.673 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:14:37.676 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:14:37.676 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:14:37.677 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:14:37.677 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:14:37.680 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:14:37.682 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:14:37.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:15:22.871 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:15:22.875 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:15:22.877 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:15:22.878 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:15:22.878 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:15:22.878 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:15:22.880 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:15:22.883 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes
+19:15:22.883 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:15:22.883 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:16:14.168 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:16:14.173 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:16:14.175 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:16:14.176 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:16:14.176 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:16:14.176 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:16:14.179 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El enfermero Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:16:14.181 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes entonces le envia a otro hospital
+19:16:14.181 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:16:14.181 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:38:59.800 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:38:59.804 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:38:59.806 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:38:59.806 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:38:59.806 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:38:59.807 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:38:59.810 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:38:59.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:38:59.812 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes entonces le envia a otro hospital
+19:38:59.812 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:38:59.812 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:39:20.564 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:39:20.569 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:39:20.571 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:39:20.572 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:39:20.572 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:39:20.572 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:39:20.575 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:39:20.577 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:39:20.577 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:40:16.286 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:40:16.291 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:40:16.294 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:40:16.294 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:40:16.294 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:40:16.295 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:40:16.295 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:40:16.295 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:40:16.295 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:40:16.295 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:40:16.295 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:40:16.295 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:40:16.297 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:40:16.299 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:40:16.299 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:40:16.299 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:40:16.299 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:40:16.299 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:03.761 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:41:03.766 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:41:03.768 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:41:03.768 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:41:03.768 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:41:03.769 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:41:03.769 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:41:03.769 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:41:03.769 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:41:03.769 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:41:03.769 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:41:03.769 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:41:03.771 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:41:03.773 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:41:03.773 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:41:03.773 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:03.773 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:41:03.774 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:03.774 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bobesta comiendo en la habitacion
+19:41:33.889 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:41:33.894 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:41:33.896 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:41:33.896 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:41:33.897 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:41:33.897 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:41:33.897 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:41:33.900 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:41:33.902 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:41:50.949 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:41:50.953 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:41:50.956 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:41:50.956 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:41:50.957 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:41:50.957 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:41:50.957 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:41:50.958 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:41:50.960 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:50.961 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:41:50.961 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:50.961 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:41:50.961 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:50.961 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:41:50.961 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:41:50.961 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:41:50.962 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:41:50.962 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:41:54.595 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:41:54.599 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:41:54.601 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:41:54.601 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:41:54.602 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:41:54.602 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:41:54.602 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:41:54.604 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:41:54.607 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:41:55.854 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:41:55.859 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:41:55.861 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:41:55.861 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:41:55.862 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:41:55.862 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:41:55.862 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:41:55.864 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:41:55.867 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:41:57.533 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:41:57.537 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:41:57.539 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:41:57.539 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:41:57.540 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:41:57.540 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:41:57.540 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:41:57.542 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:41:57.544 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:41:57.544 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:41:57.544 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:41:57.544 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:41:57.544 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes entonces le envia a otro hospital
+19:41:57.544 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bobesta comiendo en la habitacion
+19:41:57.544 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Juanesta comiendo en la habitacion
+19:41:57.545 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+19:41:57.545 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:41:57.545 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:41:57.545 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:41:57.545 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:55:04.588 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:55:04.592 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:55:04.594 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:55:04.594 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:55:04.595 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:55:04.595 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:55:04.595 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:55:04.597 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Dr. Blanco de la sala 3
+19:55:04.599 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Bob atiende al paciente y encuentra que esta sano
+19:55:04.599 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Enfermero Guille de la sala 4
+19:55:04.599 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Bob atiende al paciente y encuentra que esta sano
+19:55:04.599 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:55:04.599 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:55:05.798 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:55:05.802 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:55:05.804 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:55:05.804 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:55:05.805 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:55:05.805 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:55:05.805 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:55:05.807 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Dr. Blanco de la sala 3
+19:55:05.809 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Bob atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+19:55:05.809 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Enfermero Guille de la sala 4
+19:55:05.809 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Bob atiende al paciente y encuentra que esta sano
+19:55:05.810 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Dr. Blanco esta comiendo en la habitacion
+19:55:05.810 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:55:05.810 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:58:41.468 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:58:41.471 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:58:41.474 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:58:41.474 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:58:41.474 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:58:41.474 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:58:41.474 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+19:58:41.477 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Dr. Blanco de la sala 3
+19:58:41.479 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Bob atiende al paciente y encuentra que esta sano
+19:58:41.479 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Enfermero Guille de la sala 4
+19:58:41.479 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Bob atiende al paciente y encuentra que esta sano
+20:00:10.177 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:00:10.181 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:00:10.182 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:00:10.184 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:00:10.184 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:00:10.184 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:00:10.184 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:00:10.187 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Dr. Blanco de la sala 3
+20:00:10.189 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Bob atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:00:10.189 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Juan ha cogido el paciente Enfermero Guille de la sala 4
+20:00:10.190 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Bob atiende al paciente y encuentra que esta sano
+20:00:10.190 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:00:10.190 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:00:10.190 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:00:10.190 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:00:10.190 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:00:10.190 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Dr. Blanco esta comiendo en la habitacion
+20:00:49.602 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:00:49.607 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:00:49.609 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:00:49.609 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:00:49.609 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:00:49.609 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:00:49.609 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:00:49.612 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:00:49.614 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:00:49.614 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:00:49.614 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:00:49.614 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:00:49.614 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:00:49.614 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:00:49.614 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:00:49.615 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:03:33.397 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:03:33.401 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:03:33.403 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:03:33.404 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:03:33.404 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:03:33.404 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:03:33.404 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:03:33.407 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:03:33.409 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:03:33.409 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:03:33.409 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:03:33.409 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:03:33.409 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:03:33.409 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:03:33.410 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:03:33.410 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:03:33.410 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:03:33.410 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bob esta comiendo en la habitacion
+20:03:33.410 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:03:33.410 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:03:44.436 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:03:44.440 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:03:44.443 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:03:44.443 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:03:44.443 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:03:44.443 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:03:44.443 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:03:44.446 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:03:44.449 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:03:44.449 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:03:44.449 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:03:44.449 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:03:44.449 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:03:44.450 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:03:44.450 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:03:44.450 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:04:37.056 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:04:37.060 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:04:37.062 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:04:37.062 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:04:37.062 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:04:37.063 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:04:37.063 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:04:37.065 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:04:37.067 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:04:37.067 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:04:37.067 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bob esta comiendo en la habitacion
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:04:37.068 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Bob esta comiendo en la cafeteria
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:04:37.068 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bob esta comiendo en la habitacion
+20:04:37.069 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Natalia esta comiendo en la habitacion
+20:10:04.263 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:10:04.266 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:10:04.269 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:10:04.269 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:10:04.270 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:10:04.270 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:10:04.270 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:10:04.272 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:10:04.274 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:10:04.274 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:10:04.274 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:10:04.274 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bob esta comiendo en la habitacion
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:10:04.275 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bob esta comiendo en la habitacion
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Juan esta comiendo en la habitacion
+20:10:04.275 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:10:04.275 [main] ERROR es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - No hay mas espacio para los pacientes entonces le envia a otro hospital
+20:13:52.664 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:13:52.667 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:13:52.670 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:13:52.670 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:13:52.670 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:13:52.670 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:13:52.673 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:13:52.674 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:13:52.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:13:52.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:13:52.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:13:52.675 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:14:04.246 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:14:04.250 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:14:04.251 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:14:04.253 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:14:04.253 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:14:04.253 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:14:04.256 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:14:04.258 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:14:04.258 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:14:04.258 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:14:04.258 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:14:04.258 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:14:07.673 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:14:07.677 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:14:07.679 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:14:07.679 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:14:07.680 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:14:07.680 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:14:07.682 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:14:07.684 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:14:07.684 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:14:07.684 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:14:07.684 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:14:07.684 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:14:07.684 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:14:07.684 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bob esta comiendo en la habitacion
+20:14:07.684 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:14:07.686 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:14:07.686 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:14:07.686 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:44:17.800 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+20:44:17.804 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+20:44:17.805 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+20:44:17.806 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+20:44:17.806 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+20:44:17.806 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+20:44:17.808 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+20:44:17.810 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta enfermo alli se queda hasta que se mejore
+20:44:17.810 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Es hora de comer
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Bob esta comiendo en la habitacion
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+20:44:17.811 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 2 Dr. Blanco atiende al paciente y encuentra que esta sano

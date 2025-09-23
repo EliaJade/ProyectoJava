@@ -16,10 +16,16 @@ public class Enfermo extends Persona {
 		
 		
 	}
+//	public Enfermo(Persona persona, String string) {
+//		
+//	}
 	
 	
 	//GET&SET
 	
+	
+
+
 	public String getEnfermedad() {
 		return enfermedad;
 	}
@@ -36,6 +42,6 @@ public class Enfermo extends Persona {
 
 	//METODOS
 	public void comer() {
-		Log.info("Enfermo " + getNombre() + "esta comiendo en la habitacion");
+		Log.info("Enfermo " + getNombre() + " esta comiendo en la habitacion");
 	}
 }

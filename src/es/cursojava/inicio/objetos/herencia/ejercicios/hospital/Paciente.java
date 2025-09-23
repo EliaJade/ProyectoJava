@@ -9,6 +9,7 @@ public class Paciente extends Persona {
 	
 	
 	String[] sintomas;
+	Doctor doctor;
 	
 	
 	//CONSTR
