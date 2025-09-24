@@ -8,14 +8,13 @@ public class Paciente extends Persona {
 	private final static Logger Log = LoggerFactory.getLogger(Persona.class);
 	
 	
-	String[] sintomas;
-	Doctor doctor;
+	private String[] sintomas;
 	
 	
 	//CONSTR
 	public Paciente(String nombre, int edad, String[] sintomas) {
 		super(nombre, edad);
-		sintomas= this.sintomas;
+		this.sintomas=sintomas;
 	}
 
 	
@@ -39,4 +38,5 @@ public class Paciente extends Persona {
 	public void comer() {
 		Log.info("Paciente "+ getNombre() +" esta comiendo en la cafeteria");
 	}
+
 }

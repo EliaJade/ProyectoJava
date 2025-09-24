@@ -4,6 +4,7 @@ public class Habitacion {
 
 	private int numero;
 	private Enfermo enfermo;
+	private Paciente paciente;
 	
 	
 	//CONSTR
@@ -33,6 +34,15 @@ public class Habitacion {
 
 	public void setEnfermo(Enfermo enfermo) {
 		this.enfermo = enfermo;
+	}
+	
+	public Paciente getPaciente() {
+		return paciente;
+	}
+
+
+	public void setPaciente(Paciente paciente) {
+		this.paciente = paciente;
 	}
 	
 	
