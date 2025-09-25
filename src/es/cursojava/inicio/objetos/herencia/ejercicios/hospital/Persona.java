@@ -15,6 +15,8 @@ public class Persona {
 
 	
 	//GET&SET
+
+	//can get rid of setters
 	
 	public String getNombre() {
 		return nombre;
@@ -43,3 +45,4 @@ public class Persona {
 
 	
 }
+
