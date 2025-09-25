@@ -13,7 +13,7 @@ public class EmpleadosHospital extends Persona {
 	//CONSTR
 	public EmpleadosHospital(String nombre, int edad, String turno) {
 		super(nombre, edad);
-		turno=this.turno;
+		this.turno=turno;
 	}
 
 
@@ -39,3 +39,4 @@ public class EmpleadosHospital extends Persona {
 		Log.info("El empleado " + getNombre() + " está comiendo en el comedor");
 	}
 }
+
