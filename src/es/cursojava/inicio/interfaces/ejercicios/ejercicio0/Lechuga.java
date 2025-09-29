@@ -8,6 +8,19 @@ public class Lechuga extends Verdura{
 		super(procedencia);
 		this.tipo=tipo;
 	}
+
+	@Override
+	public void limpiar() {
+
+		System.out.println("La mesa " + tipo + " se esta limpiando");
+		
+	}
+
+	@Override
+	public void desifectar() {
+		System.out.println("Se esta desinfectando la lechuga de tipo "+tipo);
+		
+	}
 	
 	
 

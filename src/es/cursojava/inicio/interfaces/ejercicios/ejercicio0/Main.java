@@ -1,6 +1,6 @@
 package es.cursojava.inicio.interfaces.ejercicios.ejercicio0;
 
-public class Main implements Desinfectable{
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -13,20 +13,24 @@ public class Main implements Desinfectable{
 		Mueble silla1 = new Silla ("","");
 		Mueble mesa1 = new Mesa ("","");
 		Verdura lechuga1 = new Lechuga ("","");
-		Verdura judias1 = new JudiasVerdes("", false) ;
+		Verdura judias1 = new JudiasVerdes("", true)  ;
+		desifectar(lechuga1);
 	}
 
-	@Override
 	public void limpiar() {
 		System.out.println("Limpiando" + getClass() );
 	}
 
-	@Override
-	public void desifectar() {
+	
+	public void desifectar(Desinfectable d) {
+		d.limpiar();
+		d.desifectar();
 		System.out.println("Desinfetando" + getClass() );
 		
 		
 	}
+
+	
 	
 	
 

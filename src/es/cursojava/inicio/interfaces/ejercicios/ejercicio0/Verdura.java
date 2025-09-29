@@ -1,6 +1,6 @@
 package es.cursojava.inicio.interfaces.ejercicios.ejercicio0;
 
-public class Verdura {
+public abstract class Verdura implements Desinfectable{
 	
 	String procedencia;
 
@@ -11,6 +11,10 @@ public class Verdura {
 		this.procedencia = procedencia;
 	}
 	
+	
+	public void limpiar() {
+		System.out.println("Primero hemos limpiado las verduras de " +procedencia);
+	}
 	
 
 }

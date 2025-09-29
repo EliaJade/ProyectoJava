@@ -11,4 +11,11 @@ public class Mesa extends Mueble{
 		super(color);
 		this.color=color;
 	}
+
+
+	@Override
+	public void limpiar() {
+		System.out.println("La mesa " + forma + " se esta limpiando");
+		
+	}
 }

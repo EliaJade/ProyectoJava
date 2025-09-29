@@ -13,6 +13,14 @@ public class Silla extends Mueble{
 		super(color);
 		this.material = material;
 	}
+
+
+	@Override
+	public void limpiar() {
+
+		System.out.println("La silla " + material + " se esta limpiando");
+		
+	}
 	
 	
 }

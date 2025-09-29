@@ -1,6 +1,6 @@
 package es.cursojava.inicio.interfaces.ejercicios.ejercicio0;
 
-public class Mueble {
+public abstract class Mueble implements Limpiable {
 	
 	String color;
 
