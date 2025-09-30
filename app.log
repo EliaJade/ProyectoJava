@@ -3871,3 +3871,40 @@
 19:48:31.000 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
 19:48:31.000 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
 19:48:31.000 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Enfermo Natalia esta comiendo en la habitacion
+18:13:35.955 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Encendiendo Movil2
+18:13:35.958 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Apagando Movil2
+18:14:33.641 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Encendiendo Movil2
+18:14:33.643 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Apagando Movil2
+18:14:33.644 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Encendiendo coche
+18:14:33.644 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Apagando coche
+18:18:48.536 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Encendiendo Movil2
+18:18:48.538 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Apagando Movil2
+18:18:48.538 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Encendiendo coche
+18:18:48.538 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Apagando coche
+18:27:47.158 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Encendiendo Movil2
+18:27:47.160 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Apagando Movil2
+18:27:47.160 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Encendiendo coche
+18:27:47.160 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Apagando coche
+18:27:47.161 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Vehiculo - Consultando bici con el id 222v
+18:27:47.161 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Vehiculo - Consultando coche con el id 111v
+18:27:47.161 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Producto - Consultando Manzana Golden con el id 111p
+18:27:47.161 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Bicicleta - Borrando la bicicleta con el 222v
+18:31:12.611 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Encendiendo Movil2
+18:31:12.613 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Apagando Movil2
+18:31:12.613 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Encendiendo coche
+18:31:12.613 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Apagando coche
+18:31:12.614 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Vehiculo - Consultando bici con el id 222v
+18:31:12.614 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Vehiculo - Consultando coche con el id 111v
+18:31:12.614 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Producto - Consultando Manzana Golden con el id 111p
+18:31:12.614 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Producto - Consultando Movil con el id 222p
+18:31:12.614 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Insertando el coche con el 111v
+18:31:17.566 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Encendiendo Movil2
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Movil - Apagando Movil2
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Encendiendo coche
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Apagando coche
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Vehiculo - Consultando bici con el id 222v
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Vehiculo - Consultando coche con el id 111v
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Producto - Consultando Manzana Golden con el id 111p
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Producto - Consultando Movil con el id 222p
+18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Insertando el coche con el 111v
+18:31:17.570 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Bicicleta - Borrando la bicicleta con el 222v
