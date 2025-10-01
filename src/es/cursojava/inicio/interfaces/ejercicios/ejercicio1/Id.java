@@ -4,7 +4,9 @@ public class Id {
 	
 	String id;
 
-	public Id(String id) {
+	public Id(
+
+			) {
 		super();
 		this.id = id;
 	}

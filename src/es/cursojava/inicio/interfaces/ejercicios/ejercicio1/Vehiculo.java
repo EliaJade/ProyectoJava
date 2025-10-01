@@ -3,6 +3,8 @@ package es.cursojava.inicio.interfaces.ejercicios.ejercicio1;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.interfaces.Consultable;
+
 public abstract class Vehiculo extends Id implements Consultable{
 	private final static Logger Log = LoggerFactory.getLogger(Vehiculo.class);
 	
@@ -15,6 +17,8 @@ public abstract class Vehiculo extends Id implements Consultable{
 		this.nombre = nombre;
 		this.precio = precio;
 	}
+	
+	
 
 
 	public String getNombre() {

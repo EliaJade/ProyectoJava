@@ -1,7 +1,9 @@
-package es.cursojava.inicio.interfaces.ejercicios.ejercicio1;
+package es.cursojava.inicio.interfaces.ejercicios.ejercicio1.pojos;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.ProductosElectronicos;
 
 public class Movil extends ProductosElectronicos{
 

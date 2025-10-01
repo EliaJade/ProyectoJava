@@ -3,6 +3,8 @@ package es.cursojava.inicio.interfaces.ejercicios.ejercicio1;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.interfaces.Consultable;
+
 public abstract class Producto extends Id implements Consultable{
 	private final static Logger Log = LoggerFactory.getLogger(Producto.class);
 	

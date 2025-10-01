@@ -1,7 +1,10 @@
-package es.cursojava.inicio.interfaces.ejercicios.ejercicio1;
+package es.cursojava.inicio.interfaces.ejercicios.ejercicio1.pojos;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Vehiculo;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.interfaces.Deletable;
 
 public class Bicicleta extends Vehiculo implements Deletable{
 	private final static Logger Log = LoggerFactory.getLogger(Bicicleta.class);

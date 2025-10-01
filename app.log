@@ -3908,3 +3908,48 @@
 18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Producto - Consultando Movil con el id 222p
 18:31:17.569 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Coche - Insertando el coche con el 111v
 18:31:17.570 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Bicicleta - Borrando la bicicleta con el 222v
+18:00:25.857 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago rechazado por insuficiente fondo en su cuenta de PayPal
+18:00:25.860 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago rechazado por insuficiente fondo en su cuenta de PayPal
+18:00:25.860 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago rechazado por insuficiente fondo en su cuenta de PayPal
+18:00:25.860 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo
+18:00:25.860 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo
+18:00:25.860 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo
+18:00:25.861 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo en su cuenta de Criptomoneda
+18:00:25.861 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo en su cuenta de Criptomoneda
+18:00:25.861 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo en su cuenta de Criptomoneda
+18:04:04.767 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:04.771 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:25.749 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:25.751 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:25.752 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:25.752 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:25.752 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:25.752 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:25.752 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:25.752 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:25.752 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:41.263 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:41.265 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:41.266 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:04:41.266 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:41.266 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:41.266 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:04:41.266 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:41.266 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:04:41.266 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:05:12.263 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:05:12.267 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:05:12.267 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda

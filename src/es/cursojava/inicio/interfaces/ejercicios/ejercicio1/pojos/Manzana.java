@@ -1,5 +1,6 @@
-package es.cursojava.inicio.interfaces.ejercicios.ejercicio1;
+package es.cursojava.inicio.interfaces.ejercicios.ejercicio1.pojos;
 
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Alimentos;
 
 public class Manzana extends Alimentos {
 	

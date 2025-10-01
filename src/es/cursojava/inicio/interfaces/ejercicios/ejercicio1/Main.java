@@ -1,8 +1,13 @@
 package es.cursojava.inicio.interfaces.ejercicios.ejercicio1;
 
-import java.util.Iterator;
-
-import es.cursojava.inicio.objetos.ejercicios.tienda.Productos;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.interfaces.Apagable;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.interfaces.Deletable;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.interfaces.Encendible;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.interfaces.Insertable;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.pojos.Bicicleta;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.pojos.Coche;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.pojos.Manzana;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.pojos.Movil;
 
 public class Main {
 
@@ -27,7 +32,7 @@ public class Main {
 		Objetos.selectObject(p2);
 		
 		Objetos.insertObject((Insertable) v1);
-//		Objetos.deleteObject((Deletable) p1); //Da error porque la manazana solo tiene consulta
+//		Objetos.deleteObject((Deletable) p1); //Da error porque la manazana solo tiene implemented consulta
 
 		Objetos.deleteObject((Deletable) v2);
 		
