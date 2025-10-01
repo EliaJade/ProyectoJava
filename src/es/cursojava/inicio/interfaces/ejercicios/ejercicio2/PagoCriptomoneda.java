@@ -9,13 +9,15 @@ public class PagoCriptomoneda implements Pago{
 
 	@Override
 	public void procesarPago(double monto) {
-		double cantidadEnCuenta = (int) Math.random()*100;
+		double cantidadEnCuenta = (int) (Math.random()*100);
 		System.out.println(monto);
 		System.out.println(cantidadEnCuenta);
-		if(monto>=cantidadEnCuenta) {
-			Log.info("Pago confirmado por Criptomoneda");
+		if(monto<=cantidadEnCuenta) {
+
+			cantidadEnCuenta= cantidadEnCuenta-monto;
+			Log.info("Pago confirmado por Criptomoneda. El total de su fondo es " + cantidadEnCuenta);
 		}else {
-			Log.error("Pago rechazado por insuficiente fondo en su cuenta de Criptomoneda");
+			Log.error("Pago rechazado por insuficiente fondo en su cuenta de Criptomoneda. El coste del es " + monto + " y solo tiene " + cantidadEnCuenta);
 		}
 	
 }

@@ -8,8 +8,7 @@ public class Main {
 		Pago pagoCriptomoneda = new PagoCriptomoneda();	
 		Main main = new Main();
 
-		double
-		monto = (int) Math.random()*100;
+		double monto = (int) (Math.random()*100);
 		
 		ProcesadorPagos.realizarPago(pagoPayPal, monto);
 		ProcesadorPagos.realizarPago(pagoTarjetaCredito, monto);

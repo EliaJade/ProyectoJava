@@ -3953,3 +3953,91 @@
 18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
 18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
 18:05:12.268 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:31:07.633 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:31:07.636 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:32:47.723 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:32:47.725 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:32:47.725 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:33:29.840 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:33:42.553 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:33:42.555 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:33:42.556 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:35:04.797 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:35:04.799 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:35:04.799 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:35:43.111 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:35:43.115 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:35:43.115 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:36:11.076 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las habitaciones:
+	1
+	2
+19:36:11.080 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado las salas:
+	3
+	4
+	5
+19:36:11.082 [main] DEBUG es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los pacientes:
+	Bob
+	Juan
+	Natalia
+19:36:11.085 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la sala 3 esta el paciente Bob con las sintomas: 
+19:36:11.085 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Tos
+19:36:11.085 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Dolor de cabeza
+19:36:11.085 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la sala 4 esta el paciente Juan con las sintomas: 
+19:36:11.085 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Dolor de pecho
+19:36:11.085 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Poca circulacion de sangre en las manos
+19:36:11.085 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la sala 5 esta el paciente Natalia con las sintomas: 
+19:36:11.085 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Dolor de tripa
+19:36:11.085 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Perdida de apetito
+19:36:11.085 [main] WARN  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Vomitos
+19:36:11.086 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la salas de espera hay 3 pacientes
+19:36:11.086 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - Se ha creado los empleados:
+	Dr. Blanco
+	Enfermero Guille
+19:36:11.086 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está fichando
+19:36:11.086 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está fichando
+19:36:11.088 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Bob de la sala 3
+19:36:11.089 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:36:11.089 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:36:11.089 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:36:11.089 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Juan esta comiendo en la cafeteria
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Juan de la sala 4
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - Paciente Natalia esta comiendo en la cafeteria
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - El Enfermero Guille ha cogido el paciente Natalia de la sala 5
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Paciente - En la habitacion 1 Dr. Blanco atiende al paciente y encuentra que esta sano
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Dr. Blanco está comiendo en el comedor
+19:36:11.090 [main] INFO  es.cursojava.inicio.objetos.herencia.ejercicios.hospital.Persona - El empleado Enfermero Guille está comiendo en el comedor
+19:37:05.859 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:37:05.862 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:37:05.862 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:38:17.961 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:38:17.963 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado
+19:38:17.964 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:38:36.432 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal
+19:38:36.435 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo
+19:38:36.435 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda
+19:45:15.535 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal. El total de su fondo es 39.0
+19:45:15.538 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es -35.0
+19:45:15.538 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda. El total de su fondo es 34.0
+19:46:30.025 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal. El total de su fondo es 45.0
+19:46:30.028 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 44.0
+19:46:30.028 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda. El total de su fondo es 53.0
+19:46:34.653 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago rechazado por insuficiente fondo en su PayPal. El coste del es 76.0 y solo tiene 46.0
+19:46:34.655 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo. El coste del es 76.0 y solo tiene 6.0
+19:46:34.657 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo en su cuenta de Criptomoneda. El coste del es 76.0 y solo tiene 66.0
+19:46:40.192 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago rechazado por insuficiente fondo en su PayPal. El coste del es 80.0 y solo tiene 79.0
+19:46:40.194 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo. El coste del es 80.0 y solo tiene 16.0
+19:46:40.195 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda. El total de su fondo es 82.0
+19:47:12.404 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal - Pago confirmado por PayPal. El total de su fondo es 11.0
+19:47:12.407 [main] ERROR es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago rechazado por insuficiente fondo. El coste del es 62.0 y solo tiene 9.0
+19:47:12.407 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda. El total de su fondo es 29.0

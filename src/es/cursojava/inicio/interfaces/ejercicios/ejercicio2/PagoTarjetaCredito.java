@@ -10,13 +10,14 @@ public class PagoTarjetaCredito implements Pago{
 
 	@Override
 	public void procesarPago(double monto) {
-		double cantidadEnCuenta = (int) Math.random()*100;
+		double cantidadEnCuenta = (int) (Math.random()*100);
 		System.out.println(monto);
 		System.out.println(cantidadEnCuenta);
-		if(monto>=cantidadEnCuenta) {
-			Log.info("Pago confirmado");
+		if(monto<=cantidadEnCuenta) {
+			cantidadEnCuenta= cantidadEnCuenta-monto;
+			Log.info("Pago confirmado. El total de su fondo es " + cantidadEnCuenta);
 		}else {
-			Log.error("Pago rechazado por insuficiente fondo");
+			Log.error("Pago rechazado por insuficiente fondo. El coste del es " + monto + " y solo tiene " + cantidadEnCuenta);
 		}
 		
 	}
