@@ -61,6 +61,11 @@ public class Alumno {
 		this.name = name;
 		this.dni = dni;
 	}
+	public Alumno (String name, String dni,  double notaMedia) {
+		this.name = name;
+		this.dni = dni;
+		this.notaMedia = notaMedia;
+	}
 	
 	public Alumno (String name, String dni, double notaMedia, String[] asignaturas) {
 		this.name = name; 

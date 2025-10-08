@@ -9,8 +9,8 @@ public abstract class Producto extends Id implements Consultable{
 	private final static Logger Log = LoggerFactory.getLogger(Producto.class);
 	
 	String nombre;
-	int precio;
-	public Producto(String id, String nombre, int precio) {
+	double precio;
+	public Producto(int id, String nombre, double precio) {
 		super(id);
 		this.nombre = nombre;
 		this.precio = precio;
@@ -21,7 +21,7 @@ public abstract class Producto extends Id implements Consultable{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public int getPrecio() {
+	public double getPrecio() {
 		return precio;
 	}
 	public void setPrecio(int precio) {

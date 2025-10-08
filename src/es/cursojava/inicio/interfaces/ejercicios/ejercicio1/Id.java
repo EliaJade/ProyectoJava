@@ -2,18 +2,18 @@ package es.cursojava.inicio.interfaces.ejercicios.ejercicio1;
 
 public class Id {
 	
-	String id;
+	int id;
 
-	public Id(String id) {
+	public Id(int id) {
 		super();
 		this.id = id;
 	}
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
