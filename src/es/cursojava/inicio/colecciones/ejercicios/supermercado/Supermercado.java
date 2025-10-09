@@ -41,11 +41,18 @@ public class Supermercado {
 			}
 		}
 		System.out.println(alimentosLista.size());
-		int productoElegido = cliente1.elegirProducto();
-		int cantidadElegido = cliente1.elegirCantidad();
-		cliente1.comprar(productoElegido, cantidadElegido, alimentosLista);
-		
-		
+//		int productoElegido = cliente1.elegirProducto();
+//		int cantidadElegido = cliente1.elegirCantidad();
+//		cliente1.comprar(productoElegido, cantidadElegido, alimentosLista);
+		cliente1.comprar(alimentosLista);
+		int contadorDeAlimento2 = 1;
+		for (List<Alimentos> alimentos : alimentosLista) {
+			for (Alimentos alimento : alimentos) {
+				System.out.println(contadorDeAlimento2 + "." +alimento.getNombre() + ":\n\tCantidad disponible: " + alimento.getCantidad()+ "\n\tPrecio: " + alimento.getPrecio() + " euros");
+				contadorDeAlimento2++;
+			}
+		}
+		cliente2.comprar(alimentosLista);
 	}
 	
 	//Metodos

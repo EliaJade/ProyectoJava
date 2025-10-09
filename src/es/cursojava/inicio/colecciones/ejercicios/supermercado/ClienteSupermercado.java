@@ -7,6 +7,11 @@ import java.util.Scanner;
 
 import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Alimentos;
 import es.cursojava.inicio.interfaces.ejercicios.ejercicio1.Producto;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio2.Pago;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoCriptomoneda;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoPayPal;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito;
+import es.cursojava.inicio.interfaces.ejercicios.ejercicio2.ProcesadorPagos;
 
 public class ClienteSupermercado{
 
@@ -55,6 +60,7 @@ public class ClienteSupermercado{
 	}
 	
 	public void comprar(int productoElegido, int cantidadElegido, List<List<Alimentos>> alimentosLista ) {
+		
 		double totalPrecio =0;
 		for (List<Alimentos> alimentos : alimentosLista) {
 			for (Alimentos alimento : alimentos) {
@@ -67,6 +73,69 @@ public class ClienteSupermercado{
 		}
 //		totalPrecio = ((Producto) alimentosLista.get(productoElegido)).getPrecio() + totalPrecio;
 //		System.out.println("Has elegido " + cantidadElegido + " " + alimentosLista.get(productoElegido) + "\nSu total quedaria en " + totalPrecio );
+	}
+	public void comprar(List<List<Alimentos>> alimentosLista) {
+		int numeroSeleccionado = 1;
+
+		double totalPrecio =0;
+		do {
+			System.out.println("Introduce el numero del producto que desea añadir a tu cesta, si no quiere añadir nada a su cesta pon 0");
+
+			Scanner scan = new Scanner (System.in);
+			numeroSeleccionado = scan.nextInt();
+			if(numeroSeleccionado == 0) {
+				break;
+			}
+			System.out.println("Introduce la cantidad del producto que desea añadir a tu cesta");
+
+			scan = new Scanner (System.in);
+			int cantidadSeleccionado = scan.nextInt();
+			
+			for (List<Alimentos> alimentos : alimentosLista) {
+				for (Alimentos alimento : alimentos) {
+					if(numeroSeleccionado==alimento.getId()) {
+						if(alimento.getCantidad() - cantidadSeleccionado>=0) {
+							alimento.setCantidad(alimento.getCantidad() - cantidadSeleccionado);
+							double totalPrecio1 = totalPrecio;
+							totalPrecio = alimento.getPrecio() * cantidadSeleccionado;
+							totalPrecio = totalPrecio + totalPrecio1;
+							System.out.println("Has elegido " + cantidadSeleccionado + " " + alimento.getNombre() + "\nSu total quedaria en " + totalPrecio );
+							
+						} else {
+							System.out.println("No tenemos suficientes "+ alimento.getNombre() + ", lo siento");
+						}
+						
+					}
+				}
+		}
+//			for (List<Alimentos> alimentos : alimentosLista) {
+//				for (Alimentos alimento : alimentos) {
+//					if(alimento.getCantidad()==0) {
+//						alimentosLista.remove(alimento.getId());	
+//					}
+//				}
+//			}
+		} while(numeroSeleccionado!=0);
+		System.out.println("Quiere realizar su pago por:\n\t1.Tarjeta\n\t2.Cripto Moneda\n\t3.PayPal");
+
+		Scanner scan = new Scanner (System.in);
+		int metodoPagoSeleccionado = scan.nextInt();
+
+		double monto = totalPrecio;
+		if(metodoPagoSeleccionado==1) {
+			Pago pagoTarjetaCredito = new PagoTarjetaCredito();
+			ProcesadorPagos.realizarPago(pagoTarjetaCredito, monto);
+		} 
+		else if(metodoPagoSeleccionado==2) {
+			Pago pagoCriptomoneda = new PagoCriptomoneda();	
+			ProcesadorPagos.realizarPago(pagoCriptomoneda, monto);
+		}
+		else if(metodoPagoSeleccionado==3) {
+			Pago pagoPayPal = new PagoPayPal();
+			ProcesadorPagos.realizarPago(pagoPayPal, monto);
+		} else {
+			System.out.println("Pago cancelado");
+		}
 	}
 	
 	
