@@ -12,7 +12,7 @@ public abstract class Vehiculo extends Id implements Consultable{
 	int precio;
 	
 	
-	public Vehiculo(String id, String nombre, int precio) {
+	public Vehiculo(int id, String nombre, int precio) {
 		super(id);
 		this.nombre = nombre;
 		this.precio = precio;

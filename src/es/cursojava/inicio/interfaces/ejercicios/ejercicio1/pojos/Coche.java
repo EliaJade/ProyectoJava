@@ -12,7 +12,7 @@ public class Coche extends VehiculosMotorizado{
 
 	String marca;
 	
-	public Coche(String id, String nombre, int precio, String motor, String marca) {
+	public Coche(int id, String nombre, int precio, String motor, String marca) {
 		super(id, nombre, precio, motor);
 		this.marca=marca;
 	}

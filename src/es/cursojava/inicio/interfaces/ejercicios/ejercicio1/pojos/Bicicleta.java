@@ -13,7 +13,7 @@ public class Bicicleta extends Vehiculo implements Deletable{
 
 	int numMarchas;
 	
-	public Bicicleta(String id, String nombre, int precio, int numMarchas) {
+	public Bicicleta(int id, String nombre, int precio, int numMarchas) {
 		super(id, nombre, precio);
 		this.numMarchas=numMarchas;
 	}

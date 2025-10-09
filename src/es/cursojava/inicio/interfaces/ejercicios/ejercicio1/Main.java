@@ -13,11 +13,11 @@ public class Main {
 
 	public static void main(String []args) {
 		Main main = new Main();
-		Vehiculo v1 = new Coche("111v", "coche", 500000, "V8", "BMW") ;
-		Vehiculo v2 = new Bicicleta("222v", "bici" , 100 , 7);
-		Encendible p3 = new Movil("333p", "Movil2", 30, "12/03/2024", "Shammysung");
-		Producto p1=new Manzana("111p", "Manzana Golden", 1, "12/01/2026", "verde");
-		Producto p2=new Movil("222p", "Movil", 300, "12/03/2023", "Samsung");
+		Vehiculo v1 = new Coche(1, "coche", 500000, "V8", "BMW") ;
+		Vehiculo v2 = new Bicicleta(2, "bici" , 100 , 7);
+		Encendible p3 = new Movil(11, "Movil2", 30, "12/03/2024", "Shammysung");
+		Producto p1=new Manzana(111, "Manzana Golden", 1, "12/01/2026", "verde");
+		Producto p2=new Movil(22, "Movil", 300, "12/03/2023", "Samsung");
 		
 		
 //		Vehiculo[] vehiculos = {v1,v2};

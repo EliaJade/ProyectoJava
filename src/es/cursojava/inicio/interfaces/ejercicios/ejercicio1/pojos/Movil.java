@@ -13,7 +13,7 @@ public class Movil extends ProductosElectronicos{
 
 	String marca;
 	
-	public Movil(String id, String nombre, int precio, String fechaFabricacion, String marca) {
+	public Movil(int id, String nombre, int precio, String fechaFabricacion, String marca) {
 		super(id, nombre, precio, fechaFabricacion);
 		this.marca=marca;
 	}
