@@ -4049,3 +4049,13 @@
 20:25:02.805 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 41.0
 20:46:04.990 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 64.75
 20:51:38.637 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 35.0
+17:48:54.990 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 84.85
+17:50:21.973 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda. El total de su fondo es 80.9
+17:50:46.466 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 35.0
+18:02:04.947 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 66.0
+18:35:50.951 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 67.0
+18:36:12.264 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado por Criptomoneda. El total de su fondo es 75.0
+17:50:38.026 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 85.7
+18:23:02.746 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 28.0
+18:35:53.186 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 68.5
+19:06:50.723 [main] INFO  es.cursojava.inicio.interfaces.ejercicios.ejercicio2.PagoTarjetaCredito - Pago confirmado. El total de su fondo es 19.5

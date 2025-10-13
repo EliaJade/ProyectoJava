@@ -38,6 +38,9 @@ public class ClienteSupermercado{
 	public void setCarritoCompra(List<Alimentos> carritoCompra) {
 		this.carritoCompra = carritoCompra;
 	}
+	public void addAlimento (Alimentos alimento) {
+		this.carritoCompra.add(alimento);
+	}
 	
 	//metodos
 	public int elegirProducto() {
