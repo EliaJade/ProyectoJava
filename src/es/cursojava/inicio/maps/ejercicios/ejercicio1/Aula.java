@@ -36,27 +36,27 @@ public class Aula {
 		this.alumnos = alumnos;
 	}
 
-	public static Map<String, Aula> crearAulas(List<Alumno> alumnos) {
+	public static Map<String, List<Alumno>> crearAulas(List<Alumno> alumnos) {
+//
+//		Aula aula1 = new Aula("1B");
+//
+//		Aula aula2 = new Aula("2C");
+//
+//		Aula aula3 = new Aula("3A");
+		List<Alumno> rango = alumnos.subList(0, 2);
 
-		Aula aula1 = new Aula("1B");
+		List<Alumno> rango2 = alumnos.subList(2,3);
 
-		Aula aula2 = new Aula("2C");
-
-		Aula aula3 = new Aula("3A");
-		List<Alumno> rango = alumnos.subList(1, 2);
-
-		List<Alumno> rango2 = alumnos.subList(3,3);
-
-		List<Alumno> rango3 = alumnos.subList(4, 7);
+		List<Alumno> rango3 = alumnos.subList(3, 7);
+//		
+//		aula1.setAlumnos(rango);
+//		aula2.setAlumnos(rango2);
+//		aula3.setAlumnos(rango3);
 		
-		aula1.setAlumnos(rango);
-		aula2.setAlumnos(rango2);
-		aula3.setAlumnos(rango3);
-		
-		Map<String, Aula> aulas = new HashMap();
-		aulas.put("1B", aula1);
-		aulas.put("2C", aula2);
-		aulas.put("3A", aula3);
+		Map<String, List<Alumno>> aulas = new HashMap();
+		aulas.put("1B", rango);
+		aulas.put("2C", rango2);
+		aulas.put("3A", rango3);
 		
 		return aulas;
 	}

@@ -70,13 +70,13 @@ public class Alumno {
 	
 	//METODOS
 	public static List<Alumno> crearAlumno() {
-		Alumno alumno1 = new Alumno("Elia", "Z111");
-		Alumno alumno2 = new Alumno("Juan", "Y111");
-		Alumno alumno3 = new Alumno("Samuel", "F222");
-		Alumno alumno4 = new Alumno("Kai", "037H");
-		Alumno alumno5 = new Alumno("Lua", "R213");
-		Alumno alumno6 = new Alumno("Mia", "331F");
-		Alumno alumno7 = new Alumno("Natalia", "L329");
+		Alumno alumno1 = new Alumno("Elia", "Z111", 9.2);
+		Alumno alumno2 = new Alumno("Ray", "Y111", 10);
+		Alumno alumno3 = new Alumno("Samuel", "F222", 3.5);
+		Alumno alumno4 = new Alumno("Kai", "037H", 5.6);
+		Alumno alumno5 = new Alumno("Lua", "R213", 6.9);
+		Alumno alumno6 = new Alumno("Mia", "331F", 1);
+		Alumno alumno7 = new Alumno("Natalia", "L329", 8.9);
 		List<Alumno> alumnos = new ArrayList();
 		alumnos.add(alumno1);
 		alumnos.add(alumno2);

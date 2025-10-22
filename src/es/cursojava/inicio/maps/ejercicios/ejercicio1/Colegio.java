@@ -1,6 +1,7 @@
 package es.cursojava.inicio.maps.ejercicios.ejercicio1;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -11,51 +12,33 @@ public class Colegio {
 
 	
 	public static void main(String[] args) {
-		Colegio colegio = new Colegio();
-		
+		Colegio colegio1 = new Colegio();	
 		List<Alumno> alumnos= Alumno.crearAlumno();
 		
 		
-		Map<String, Aula> aulas= Aula.crearAulas(alumnos);
-		aulas.size();
-//		Aula aula1 = new Aula("1B");
-//
-//		Aula aula2 = new Aula("2C");
-//
-//		Aula aula3 = new Aula("3A");
+		Map<String, List<Alumno>> aulas= Aula.crearAulas(alumnos);
 		
-		
-//		Map<String, Alumno> alumnos = Alumno.crearAlumno();
-//		for (String string : args) {
-//			
-//		}
-//		List<Alumno> aula = new ArrayList();
-//		
-//		
-//		Map<String, Aula> aulas = Aula.crearAulas();
-//		Map<String, Alumno> aula1 = Alumno.crearAlumno1();
-//
-//		Map<String, Alumno> aula2 = Alumno.crearAlumno2();
-//		Map<String, Alumno> aula3 = Alumno.crearAlumno3();
-//		List<Alumno> aula1 = new ArrayList();
-//		aula1.add(alumno1);
-//		aula1.add(alumno2);
-//		
-//		List<Alumno> aula2 = new ArrayList();
-//		aula1.add(alumno3);
-//		
-//		List<Alumno> aula3 = new ArrayList();
-//		aula1.add(alumno4);
-//		aula1.add(alumno5);
-//		aula1.add(alumno6);
-//		aula1.add(alumno7);
-//		
-//		List<List<Alumno>> aulas = new ArrayList();
-//		Map<String, Aula> colegio = Aula.crearAulas();
-//		colegio.get("1C").get
+		Collection<List<Alumno>> listasAlumnos = aulas.values();
+		int contador=1;
+		for (List<Alumno> list : listasAlumnos) {
 
+			System.out.println("En aula " +contador +" hay " +list.size() + " alumnos");
+		contador++;
+		for (Alumno alumno : list) {
+			System.out.println("Alumno:" + alumno.getName()+ "\n\tDNI:"+alumno.getDni());
 			
+			
+		}
+		}
+
+		List <Alumno> alumnosDeClase= aulas.get("1B");
+		System.out.println("================\nEl colegio tiene " + aulas.size() + " aulas");
+		System.out.println("En aula 1 hay " + alumnosDeClase.size()+ " alumnos");
 		
+		for (Alumno alumno : alumnosDeClase) {
+			System.out.println("Alumno:" + alumno.getName()+ "\n\tDNI:"+alumno.getDni());
+		}
 	}
+	
 
 }
