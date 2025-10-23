@@ -36,29 +36,70 @@ public class Aula {
 		this.alumnos = alumnos;
 	}
 
-	public static Map<String, List<Alumno>> crearAulas(List<Alumno> alumnos) {
+	public static Map<String, List<Alumno>> crearAulasCole1(List<Alumno> alumnos) {
 //
 //		Aula aula1 = new Aula("1B");
 //
 //		Aula aula2 = new Aula("2C");
 //
 //		Aula aula3 = new Aula("3A");
-		List<Alumno> rango = alumnos.subList(0, 2);
+		List<Alumno> rango = alumnos.subList(0, 1);
 
-		List<Alumno> rango2 = alumnos.subList(2,3);
+		List<Alumno> rango2 = alumnos.subList(1,2);
 
-		List<Alumno> rango3 = alumnos.subList(3, 7);
+		List<Alumno> rango3 = alumnos.subList(2, 3);
 //		
 //		aula1.setAlumnos(rango);
 //		aula2.setAlumnos(rango2);
 //		aula3.setAlumnos(rango3);
 		
-		Map<String, List<Alumno>> aulas = new HashMap();
-		aulas.put("1B", rango);
-		aulas.put("2C", rango2);
-		aulas.put("3A", rango3);
+		Map<String, List<Alumno>> aulasCole1 = new HashMap();
+		aulasCole1.put("1B", rango);
+		aulasCole1.put("2C", rango2);
+		aulasCole1.put("3A", rango3);
 		
-		return aulas;
+		return aulasCole1;
+	}
+	public static Map<String, List<Alumno>> crearAulasCole2(List<Alumno> alumnos) {
+		//
+//				Aula aula1 = new Aula("1B");
+		//
+//				Aula aula2 = new Aula("2C");
+		//
+//				Aula aula3 = new Aula("3A");
+				List<Alumno> rango = alumnos.subList(3, 5);
+
+//				
+//				aula1.setAlumnos(rango);
+//				aula2.setAlumnos(rango2);
+//				aula3.setAlumnos(rango3);
+				
+				Map<String, List<Alumno>> aulasCole2 = new HashMap();
+				aulasCole2.put("1A", rango);
+				
+				return aulasCole2;
+	}
+	public static Map<String, List<Alumno>> crearAulasCole3(List<Alumno> alumnos) {
+		//
+//				Aula aula1 = new Aula("1B");
+		//
+//				Aula aula2 = new Aula("2C");
+		//
+//				Aula aula3 = new Aula("3A");
+				List<Alumno> rango = alumnos.subList(5, 6);
+
+				List<Alumno> rango2 = alumnos.subList(6,7);
+//				
+//				aula1.setAlumnos(rango);
+//				aula2.setAlumnos(rango2);
+//				aula3.setAlumnos(rango3);
+				
+				Map<String, List<Alumno>> aulasCole3 = new HashMap();
+				aulasCole3.put("1D", rango);
+
+				aulasCole3.put("2A", rango2);
+				
+				return aulasCole3;
 	}
 
 }

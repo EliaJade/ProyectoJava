@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Alumno {
 	private String name;
@@ -77,7 +78,7 @@ public class Alumno {
 		Alumno alumno5 = new Alumno("Lua", "R213", 6.9);
 		Alumno alumno6 = new Alumno("Mia", "331F", 1);
 		Alumno alumno7 = new Alumno("Natalia", "L329", 8.9);
-		List<Alumno> alumnos = new ArrayList();
+		List<Alumno> alumnos = new CopyOnWriteArrayList();
 		alumnos.add(alumno1);
 		alumnos.add(alumno2);
 		alumnos.add( alumno3);

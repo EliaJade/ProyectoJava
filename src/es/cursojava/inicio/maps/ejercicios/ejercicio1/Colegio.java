@@ -16,7 +16,7 @@ public class Colegio {
 		List<Alumno> alumnos= Alumno.crearAlumno();
 		
 		
-		Map<String, List<Alumno>> aulas= Aula.crearAulas(alumnos);
+		Map<String, List<Alumno>> aulas= Aula.crearAulasCole1(alumnos);
 		
 		Collection<List<Alumno>> listasAlumnos = aulas.values();
 		int contador=1;
