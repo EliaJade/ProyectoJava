@@ -100,6 +100,7 @@ public class Colegio {
 		 double totalDeColegio = 0;
 		 double mayorMedia = 0;
 		 String colegioMayorNota = "";
+		 Colegio colegioMejor = null;
 		for (Colegio colegio : colegios) {
 			 double mediaDeColegio = 0;
 
@@ -118,10 +119,11 @@ public class Colegio {
 			if(mayorMedia>=totalDeColegio) {
 				totalDeColegio = mayorMedia;
 
-				colegioMayorNota = colegio.getNombre();
+//				colegioMayorNota = colegio.getNombre();
+				colegioMejor=colegio;
 			}
 		}
-		System.out.println("El colegio " + colegioMayorNota + " que tiene un " + totalDeColegio);
+		System.out.println("El colegio " + colegioMejor.getNombre() + " que tiene un " + totalDeColegio);
 		
 	}
 	

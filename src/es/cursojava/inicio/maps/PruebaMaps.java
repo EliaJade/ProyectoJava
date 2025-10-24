@@ -69,7 +69,7 @@ public class PruebaMaps {
 		 
 		Set<Entry<String, Persona>> entries = personas.entrySet();
 		for (Entry<String, Persona> entry : entries) {
-			System.out.println(entry.getKey()+ " "+(entry.getValue().getNombre()));
+			System.out.println("===========================\n"+entry.getKey()+ " "+(entry.getValue().getNombre()));
 		}
 		
 		personas.remove("111A");

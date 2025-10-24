@@ -20,15 +20,15 @@ public class Colegio {
 		
 		Collection<List<Alumno>> listasAlumnos = aulas.values();
 		int contador=1;
+		
 		for (List<Alumno> list : listasAlumnos) {
-
 			System.out.println("En aula " +contador +" hay " +list.size() + " alumnos");
-		contador++;
-		for (Alumno alumno : list) {
-			System.out.println("Alumno:" + alumno.getName()+ "\n\tDNI:"+alumno.getDni());
+			contador++;
+				for (Alumno alumno : list) {
+					System.out.println("Alumno:" + alumno.getName()+ "\n\tDNI:"+alumno.getDni());
 			
 			
-		}
+				}
 		}
 
 		List <Alumno> alumnosDeClase= aulas.get("1B");
