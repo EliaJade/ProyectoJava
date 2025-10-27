@@ -1,5 +1,7 @@
 package es.cursojava.inicio.maps.ejercicios.ejercicio3;
 
+import java.util.Objects;
+
 public class Autor {
 
 	private String nombre;
@@ -20,6 +22,23 @@ public class Autor {
 	}
 	public void setNacionalidad(String nacionalidad) {
 		this.nacionalidad = nacionalidad;
+	}
+	
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(nacionalidad, nombre);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Autor other = (Autor) obj;
+		return Objects.equals(nacionalidad, other.nacionalidad) && Objects.equals(nombre, other.nombre);
 	}
 	
 	

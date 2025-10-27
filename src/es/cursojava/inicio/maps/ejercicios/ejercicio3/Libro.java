@@ -1,5 +1,7 @@
 package es.cursojava.inicio.maps.ejercicios.ejercicio3;
 
+import java.util.Objects;
+
 public class Libro {
 	
 	private String titulo;
@@ -29,6 +31,21 @@ public class Libro {
 	}
 	public void setAnios(int anios) {
 		this.anios = anios;
+	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(anios, isbn, titulo);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Libro other = (Libro) obj;
+		return anios == other.anios && Objects.equals(isbn, other.isbn) && Objects.equals(titulo, other.titulo);
 	}
 	
 	
