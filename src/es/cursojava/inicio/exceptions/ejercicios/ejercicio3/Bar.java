@@ -10,17 +10,52 @@ public class Bar {
 	public static void main(String[]args) {
 		Bar bar = new Bar();
 		List<Cliente> clientes = bar.abrirBar();
-		TazaCafe cafe = new TazaCafe("Cafe solo", 90);
-		for (Cliente cliente : clientes) {
-			
-			try {
-			cafe.tomarCafe(cliente);
-			}
-			catch(IllegalArgumentException iae){
-				System.err.println(iae.getMessage());
+		
+
+//			TazaCafe cafe = new TazaCafe("Cafe solo", 90);
+			for (Cliente cliente : clientes) {
+				try {
+
+					TazaCafe cafe = Utilidades.crearCafe();
+					cliente.tomarCafe(cafe);
+				} catch(IllegalArgumentException iae){
+					System.err.println(iae.getMessage());
+				} catch (TooHotTemperatureException e) {
+					// TODO Auto-generated catch block
+					System.err.println(e.getMessage()+ " para " + cliente.getNombre());
+				} catch (TooColdTemperatureException e) {
+					// TODO Auto-generated catch block
+					System.err.println(e.getMessage()+ " para " + cliente.getNombre());
 				
-			}
+				}
 		}
+			 
+		
+		
+//			TazaCafe cafe2 = new TazaCafe("Cafe con leche", 50);
+//			for (Cliente cliente : clientes) {
+//
+//				try {
+//					cliente.tomarCafe(Utilidades.crearCafe());
+//				} catch(IllegalArgumentException iae) {
+//					System.err.println(iae.getMessage());
+//					continue;
+//				} catch (TooHotTemperatureException e) {
+//					// TODO Auto-generated catch block
+//					System.err.println(e.getMessage()+ " para " + cliente.getNombre());
+//				} catch (TooColdTemperatureException e) {
+//					// TODO Auto-generated catch block
+//					System.err.println(e.getMessage()+ " para " + cliente.getNombre());
+//				
+//				}
+//			}	
+		
+		
+		
+		
+			
+		
+		
 		
 	}
 	

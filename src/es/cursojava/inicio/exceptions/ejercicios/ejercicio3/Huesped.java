@@ -6,7 +6,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-
 public class Huesped extends Cliente{
 
 	private String dni;
@@ -15,6 +14,8 @@ public class Huesped extends Cliente{
 		super(nombre);
 		this.dni=dni;
 	}
+
+	
 
 	
 	
