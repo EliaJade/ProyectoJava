@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public  class Cliente {
+public abstract class Cliente {
 	
 	
 	private String nombre;
