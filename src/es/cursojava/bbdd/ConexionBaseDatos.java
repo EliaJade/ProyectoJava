@@ -26,6 +26,9 @@ public class ConexionBaseDatos {
 			connection = DriverManager.getConnection(url_oracle2,username,password);
 			//Class.forName("oracle.jdbc.driver.OracleDriver");
 			
+			
+			
+			
 			if (connection!=null) {
 				System.out.println("Conexion establecida");
 			}
