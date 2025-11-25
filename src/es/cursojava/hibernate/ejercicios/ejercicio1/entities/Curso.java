@@ -1,8 +1,10 @@
-package es.cursojava.hibernate.ejercicios.ejercicio1;
+package es.cursojava.hibernate.ejercicios.ejercicio1.entities;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Categoria;
+import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Nivel;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -100,4 +102,14 @@ public class Curso {
 		this.activo = activo;
 		this.fechaCreacion = fechaCreacion;
 	}
+
+	@Override
+	public String toString() {
+		return "Curso [id=" + id + ", codigo=" + codigo + ", nombre=" + nombre + ", description=" + description
+				+ ", horasTotales=" + horasTotales + ", activo=" + activo + ", nivel=" + nivel + ", categoria="
+				+ categoria + ", precio=" + precio + ", fechaInicio=" + fechaInicio + ", fechaFin=" + fechaFin
+				+ ", fechaCreacion=" + fechaCreacion + "]";
+	}
+	
+	
 }

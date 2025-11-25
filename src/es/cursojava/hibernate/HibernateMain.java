@@ -28,9 +28,9 @@ public class HibernateMain {
             
             tx.commit();
             
-            Query<Empresa> query = session.createQuery("from Empresa", Empresa.class);
+            Query<Empresa> query = session.createQuery("from Empresa", Empresa.class); //hql
             List<Empresa> empresas = query.list();
-            //or List<Empresa> empresas = session.createQuery("from Empresa", Empresa.class).list();
+            //or List<Empresa> empresas = session.createQuery("from Empresa", Empresa.class).list(); //hql
            
             for (Empresa empresa : empresas) {
 				System.out.println(empresa.toString());
