@@ -14,7 +14,7 @@ public class CursoDAO {
 	private Transaction transaction;
 	
 	public CursoDAO() {
-		session=UtilidadesHibernate.getSession();
+		session=UtilidadesHibernate.getSessionFactory();
 		transaction = session.beginTransaction();
 	}
 	

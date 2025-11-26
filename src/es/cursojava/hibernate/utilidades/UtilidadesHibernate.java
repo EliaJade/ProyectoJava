@@ -24,7 +24,7 @@ public class UtilidadesHibernate {
 //		}
 	//BETTER MORE OPTIMIZED VERSION ABOVE
 
-	public static Session getSession() {
+	private static Session getSession() {
 		SessionFactory sessionFactory = new Configuration() //CREATES A SESSIO FACTORY EVERY TIME
 				.configure()
 				.buildSessionFactory();
