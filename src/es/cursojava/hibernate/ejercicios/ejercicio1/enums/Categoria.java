@@ -2,7 +2,12 @@ package es.cursojava.hibernate.ejercicios.ejercicio1.enums;
 
 public enum Categoria {
 
-	Programacion, 
+	Programación, 
 	Belleza, 
-	Decoracion
+	Decoracion,
+	Acceso_a_Datos,
+	Bases_de_Datos,
+	Backend,
+	Herramientas
+	
 }

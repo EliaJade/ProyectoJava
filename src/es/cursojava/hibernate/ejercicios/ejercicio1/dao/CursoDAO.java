@@ -30,7 +30,7 @@ public class CursoDAO {
 		
 	}
 	
-	public Curso obtenerCursoById(Integer id) {
+	public Curso obtenerCursoById(int id) {
 		return session.get(Curso.class, id); //haciendo una query, es decir una constulta por primary key de la tabla curso.class(entity)
 	}
 	

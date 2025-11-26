@@ -15,6 +15,7 @@ import jakarta.persistence.Id;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.Builder.Default;
 import lombok.Getter;
 import lombok.Setter;
@@ -28,6 +29,7 @@ public class Curso {
 	private long id;
 	
 	@NotNull
+	@Size(max = 20)
 	@Column(nullable = false, length = 20, unique = true)
 	private String codigo;
 	
@@ -58,7 +60,7 @@ public class Curso {
 	
 	@Min(value = 0, message = "El precio no puede ser menor que 0")
 	@Column(nullable = true)
-	private int precio;
+	private double precio;
 	
 	@Column(nullable = true)
 	private LocalDate fechaInicio;
@@ -78,7 +80,7 @@ public class Curso {
 
 	//no tiene id
 	public Curso(String codigo, String nombre, String description, int horasTotales, boolean activo, Nivel nivel,
-			Categoria categoria, int precio, LocalDate fechaInicio, LocalDate fechaFin, LocalDateTime fechaCreacion) {
+			Categoria categoria, double precio, LocalDate fechaInicio, LocalDate fechaFin, LocalDateTime fechaCreacion) {
 		super();
 		this.codigo = codigo;
 		this.nombre = nombre;
