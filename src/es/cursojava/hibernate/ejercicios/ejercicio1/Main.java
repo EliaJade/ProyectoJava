@@ -88,8 +88,6 @@ public class Main {
 		public static List<Curso> leerArchivo () throws IOException {
 			String nombreArchivo = "./recursos/cursos.txt";
 		
-			
-			StringBuilder sb = new StringBuilder();
 			File archivo = new File(nombreArchivo);
 
 
