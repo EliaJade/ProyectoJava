@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,7 +31,9 @@ public class Main {
 	public static void main(String[] args) {
 		insertarCursos();
 		listarCursos();
-		obtenerCursoPorId();
+//		obtenerCursoPorId();
+		mostrarCursosPorNombre();
+		mostrarCursoPorCodigo();
 		
 	}
 
@@ -136,6 +139,36 @@ public class Main {
 	        	
 	            	
 	   }
+		}
+		
+		public static void mostrarCursosPorNombre() {
+			String nombre = SimUtils.pideDatoCadena("Dime un nombre de un curso");
+			CursoDAO dao = new CursoDAO();
+			List<Curso> cursos = dao.obtenerCursoByNombre(nombre);
+			if (cursos.isEmpty()) {
+				List<Curso> cursosTodos = dao.obtenerTodosLosCursos();
+				System.out.println("There was no course called " + nombre + " found");
+				
+				for (Curso curso : cursosTodos) {
+					System.out.println("Curso encontrado: " + curso.getCodigo() + " - " + curso.getNombre() );
+					
+				}
+			}
+			for (Curso curso : cursos) {
+				System.out.println("Curso encontrado: " + curso.getCodigo() + " - " + curso.getNombre() );
+				
+			}
+			dao.commitTransaction();
+		}
+		
+		
+		public static void mostrarCursoPorCodigo() {
+			String codigo = SimUtils.pideDatoCadena("Dime un codigo de un curso");
+			CursoDAO dao = new CursoDAO();
+			List<Curso> cursos = dao.obtenerCursosPorCodigo(codigo);
+			for (Curso curso : cursos) {
+				System.out.println("Curso encontrado: " + curso.getCodigo() + " - " + curso.getNombre() );
+				}
 		}
 	        
 		

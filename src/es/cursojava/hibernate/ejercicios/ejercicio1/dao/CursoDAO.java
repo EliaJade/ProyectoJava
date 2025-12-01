@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 import es.cursojava.hibernate.ejercicios.ejercicio1.entities.Curso;
 import es.cursojava.hibernate.utilidades.UtilidadesHibernate;
@@ -31,7 +32,7 @@ public class CursoDAO {
 	}
 	
 	public Curso obtenerCursoById(int id) {
-		return session.get(Curso.class, id); //haciendo una query, es decir una constulta por primary key de la tabla curso.class(entity)
+		return session.get(Curso.class, id); //haciendo una query, es decir una constulta por primary key de la tabla curso.class(entity) y el primary key es el id
 	}
 	
 	public List<Curso> obtenerTodosLosCursos() {
@@ -39,6 +40,25 @@ public class CursoDAO {
 		
 		return session.createQuery("from Curso", Curso.class).list();
 		
+	}
+	
+	public List<Curso> obtenerCursoByNombre(String nombre) {
+		if(nombre==null||nombre.trim().isEmpty()) {
+			return obtenerTodosLosCursos();
+		}
+		Query<Curso> query=session.createQuery("from Curso where nombre like :nombreParam", Curso.class);
+		query.setParameter("nombreParam", "%"+nombre.trim()+"%");
+
+		
+		return query.list();
+		
+	}
+	
+	public List<Curso> obtenerCursosPorCodigo(String codigo){
+		Query<Curso> query = session.createQuery("from Curso where codigo like :codigoParam", Curso.class );
+		query.setParameter("codigoParam", "%"+codigo.trim()+"%");
+		
+		return query.list();
 	}
 
 	public void commitTransaction() {
