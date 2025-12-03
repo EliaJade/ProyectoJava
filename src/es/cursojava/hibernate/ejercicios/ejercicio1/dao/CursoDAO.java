@@ -1,5 +1,6 @@
 package es.cursojava.hibernate.ejercicios.ejercicio1.dao;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -7,6 +8,8 @@ import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
 import es.cursojava.hibernate.ejercicios.ejercicio1.entities.Curso;
+import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Categoria;
+import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Nivel;
 import es.cursojava.hibernate.utilidades.UtilidadesHibernate;
 
 public class CursoDAO {
@@ -63,5 +66,36 @@ public class CursoDAO {
 
 	public void commitTransaction() {
 		transaction.commit();
+	}
+
+	public List<Curso> buscarPorRangoFechaInicio(LocalDate fechaDesde, LocalDate fechaHasta) {
+		System.out.println("Buscando cursos desde " + fechaDesde + " hasta " + fechaHasta);
+		
+		Query<Curso> query = session.createQuery("from Curso where fechaInicio >= :desdeFecha and fechaInicio <= :hastaFecha", Curso.class);
+		query.setParameter("desdeFecha", fechaDesde);
+		query.setParameter("hastaFecha", fechaHasta);
+		return query.list();
+	}
+
+	public List<Curso> buscarPorCategoriaYFechaInicio(Categoria categoria, LocalDate fechaDesde, LocalDate fechaHasta) {
+		System.out.println("Buscando cursos desde " + fechaDesde + " hasta " + fechaHasta +" de la categoria " + categoria);
+		
+		Query<Curso> query = session.createQuery("from Curso where fechaInicio between :fechaDesde and :fechaHasta and categoria = :programacion", Curso.class);
+		query.setParameter("fechaDesde", fechaDesde);
+		query.setParameter("fechaHasta", fechaHasta);
+		query.setParameter("programacion", categoria);
+		return query.list();
+	}
+
+	public List<Curso> buscarPorNivelHorasYFecha(LocalDate fechaDesde, Nivel nivel, int horas) {
+		
+
+		System.out.println("Buscando cursos desde " + fechaDesde + " de nivel " + nivel +" con al menos " + horas + " horas");
+		
+		Query<Curso> query = session.createQuery("from Curso where fechaInicio >= :fechaDesde and nivel = :nivel and horasTotales >= :horas", Curso.class);
+		query.setParameter("horas", horas);
+		query.setParameter("nivel", nivel);
+		query.setParameter("fechaDesde", fechaDesde);
+		return query.list();
 	}
 }

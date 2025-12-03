@@ -32,8 +32,11 @@ public class Main {
 		insertarCursos();
 		listarCursos();
 //		obtenerCursoPorId();
-		mostrarCursosPorNombre();
-		mostrarCursoPorCodigo();
+//		mostrarCursosPorNombre();
+//		mostrarCursoPorCodigo();
+		filtrarPorFechas();
+		filtrarPorCategoriaYFechas();
+		filtrarPorNivelHorasYFecha();
 		
 	}
 
@@ -170,7 +173,40 @@ public class Main {
 				System.out.println("Curso encontrado: " + curso.getCodigo() + " - " + curso.getNombre() );
 				}
 		}
-	        
 		
+		public static void filtrarPorFechas() {
+			CursoDAO dao = new CursoDAO();
+			
+			LocalDate fechaDesde = LocalDate.of(2025, 1, 2);
+			LocalDate fechaHasta = LocalDate.of(2025, 2, 1);
+			
+			List<Curso> cursos = dao.buscarPorRangoFechaInicio(fechaDesde, fechaHasta);
+			System.out.println("Cursos con fecha de inicio entre " + fechaDesde + " y "+ fechaHasta + ":");
+			cursos.forEach(System.out::println);
+			dao.commitTransaction();
+		}
+	        
+		public static void filtrarPorCategoriaYFechas() {
+			CursoDAO dao = new CursoDAO();
+			
+			LocalDate fechaDesde = LocalDate.of(2025, 1, 2);
+			LocalDate fechaHasta = LocalDate.of(2025, 2, 1);
+			Categoria categoria = Categoria.Programación;
+			
+			List<Curso> cursos = dao.buscarPorCategoriaYFechaInicio(categoria, fechaDesde, fechaHasta);
+			cursos.forEach(curso -> System.out.println(curso));
+			dao.commitTransaction();
+		}
+		
+		public static void filtrarPorNivelHorasYFecha() {
+			CursoDAO dao = new CursoDAO();
+			LocalDate fechaDesde = LocalDate.of(2024, 1, 2);
+			Nivel nivel = Nivel.Básico;
+			int horas =20;
+			
+			List<Curso> cursos = dao.buscarPorNivelHorasYFecha(fechaDesde, nivel, horas);
+			cursos.forEach(curso -> System.out.println(curso));
+			
+		}
 
 }
