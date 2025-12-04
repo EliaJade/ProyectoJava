@@ -17,6 +17,10 @@ public class EmpleadoDTOReq {
 		this.salario = salario;
 	}
 	
+	public EmpleadoDTOReq() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getNif() {
 		return nif;
 	}

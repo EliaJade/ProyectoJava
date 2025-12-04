@@ -10,7 +10,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -18,6 +20,8 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class Empleado {
 	@Id
 	@GeneratedValue
@@ -37,5 +41,15 @@ public class Empleado {
 	@Column(precision = 2, nullable = false)
 	@Check(constraints = "salario >0")
 	private double salario;
+	
+	
+	public Empleado(@NotBlank @Size(max = 15) @UniqueElements String nif, @NotBlank @Size(max = 20) String nombre,
+			@Size(max = 5) Departamento departamento, double salario) {
+		super();
+		this.nif = nif;
+		this.nombre = nombre;
+		this.departamento = departamento;
+		this.salario = salario;
+	}
 
 }

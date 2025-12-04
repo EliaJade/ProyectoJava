@@ -4,5 +4,6 @@ public enum Departamento {
 
 	IT,
 	RRHH,
-	VENTAS
+	VENTAS,
+	FINANZAS
 }
