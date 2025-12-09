@@ -16,12 +16,12 @@ public class EmpleadoService implements EmpleadoServiceInteface{
 	
 	
 	public EmpleadoService() {
-		this.empleadoDAO = empleadoDAO;
+		this.empleadoDAO = new EmpleadoDAOImpl();
 	}
 	
 	@Override
 	public EmpleadoDTOReq altaEmpleado(EmpleadoDTOReq empleadoDTO) throws ExcepcionDeNegocio {
-		empleadoDAO = new EmpleadoDAOImpl();
+		
 		if(empleadoDTO.getNif() == null || empleadoDTO.getNif().trim().isEmpty()) {
 			throw new ExcepcionDeNegocio("El nif no puede estar vacio");
 		}
@@ -52,7 +52,7 @@ public class EmpleadoService implements EmpleadoServiceInteface{
 	}
 	
 	public List<EmpleadoDTOReq> listarTodosEmpleados() {
-		EmpleadoDAOImpl dao = new EmpleadoDAOImpl();
+		EmpleadoDAOImpl dao = empleadoDAO;
 		List<Empleado> empleados = dao.obtenerTodosEmpleados();
 		List<EmpleadoDTOReq> empleadoDTO = new ArrayList();
 		for (Empleado empleado : empleados) {
@@ -97,12 +97,11 @@ public class EmpleadoService implements EmpleadoServiceInteface{
 
 	@Override
 	public EmpleadoDTOReq buscarPorNif(String nif) {
-		EmpleadoDAOImpl dao = new EmpleadoDAOImpl();
+		EmpleadoDAOImpl dao = empleadoDAO;
 		Empleado empleado = dao.buscarPorNif(nif);
 		EmpleadoDTOReq dto = new EmpleadoDTOReq();
-		System.out.println("");
 		dto.setNif(empleado.getNif());
-		dto.setNombre(empleado.getNif());
+		dto.setNombre(empleado.getNombre());
 		dto.setDepartamento(empleado.getDepartamento());
 		dto.setSalario(empleado.getSalario());
 		System.out.println(dto.getNif()+ " "+ dto.getNombre()+ " "+ dto.getDepartamento()+ " "+dto.getSalario());
@@ -110,9 +109,22 @@ public class EmpleadoService implements EmpleadoServiceInteface{
 	}
 
 	@Override
-	public List<EmpleadoDTOReq> listarPorDepartamentos() {
+	public List<EmpleadoDTOReq> listarPorDepartamentos(String departamento) {
+		EmpleadoDAOImpl dao = empleadoDAO;
+		List<Empleado> empleados = dao.obtenerPorDepartamento(departamento);
 		
-		return null;
+		List<EmpleadoDTOReq> dtos = new ArrayList<EmpleadoDTOReq>();
+		for (Empleado empleado : empleados) {
+			EmpleadoDTOReq dto = new EmpleadoDTOReq();
+			dto.setNif(empleado.getNif());
+			dto.setNombre(empleado.getNombre());
+			dto.setDepartamento(empleado.getDepartamento());
+			dto.setSalario(empleado.getSalario());
+			System.out.println(dto.getDepartamento()+ " "+ dto.getNombre()+ " "+ dto.getNif()+ " "+dto.getSalario());
+			dtos.add(dto);
+		}
+		
+		return dtos;
 	}
 
 }

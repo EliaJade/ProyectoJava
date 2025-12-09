@@ -10,4 +10,8 @@ public interface EmpleadoDAO {
 	 public Empleado buscarPorNif(String nif);
 	 
 	 public void guardar(Empleado empleado);
+	 
+	 public Empleado buscarPorId(Long id);
+	 public List<Empleado> obtenerTodosEmpleados();
+	 public List<Empleado> obtenerPorDepartamento(String departamento);
 }

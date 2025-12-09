@@ -11,5 +11,5 @@ public interface EmpleadoServiceInteface {
 	public List<EmpleadoDTOReq> listarTodosEmpleados();
 	public EmpleadoDTOReq actualizarSalario(String nif, double nuevoSalario)throws ExcepcionDeNegocio;
 	public EmpleadoDTOReq buscarPorNif(String nif);
-	public List<EmpleadoDTOReq> listarPorDepartamentos();
+	public List<EmpleadoDTOReq> listarPorDepartamentos(String departamento);
 }
