@@ -41,7 +41,7 @@ public class Main {
 
 		System.out.println("Cursos dados de alta; " );
 		for (CursoRequestDTO curso : cursos) {
-			serviceA.altaCurso(curso);
+//			serviceA.altaCurso(curso);
 			System.out.println(curso);
 		}
 		
