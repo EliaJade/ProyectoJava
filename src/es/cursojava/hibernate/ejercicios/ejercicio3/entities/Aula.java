@@ -24,4 +24,14 @@ public class Aula {
 	private Integer capacidad;
 	@Column(length = 200)
 	private String ubicacion;
+	public Aula(String codigoAula, Integer capacidad, String ubicacion) {
+		super();
+		this.codigoAula = codigoAula;
+		this.capacidad = capacidad;
+		this.ubicacion = ubicacion;
+	}
+	
+	
 }
+
+

@@ -7,34 +7,36 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
-import es.cursojava.hibernate.ejercicios.ejercicio1.entities.Curso;
+import es.cursojava.hibernate.ejercicios.ejercicio3.entities.Curso;
 import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Categoria;
 import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Nivel;
+import es.cursojava.hibernate.ejercicios.ejercicio3.entities.Aula;
 import es.cursojava.hibernate.utilidades.UtilidadesHibernate;
 
 public class CursoDAO {
 	
 	private Session session;
-	private Transaction transaction;
+//	private Transaction transaction;
 	
-	public CursoDAO() {
-		session=UtilidadesHibernate.getSessionFactory();
-		transaction = session.beginTransaction();
+	public CursoDAO(Session session) {
+		this.session= session;
+//		transaction = session.beginTransaction();
 	}
 	
 	public void guardarCurso(Curso curso) {
 		session.persist(curso);
 	}
 	
-	public void eliminarCurso() {
+	public void eliminarCurso(Curso curso) {
+		session.remove(curso);
+	}
+	
+	public void actualizarCurso(Curso curso) {
+		session.merge(curso);
 		
 	}
 	
-	public void actualizarCurso() {
-		
-	}
-	
-	public Curso obtenerCursoById(int id) {
+	public Curso obtenerCursoById(long id) {
 		return session.get(Curso.class, id); //haciendo una query, es decir una constulta por primary key de la tabla curso.class(entity) y el primary key es el id
 	}
 	
@@ -64,9 +66,9 @@ public class CursoDAO {
 		return query.list();
 	}
 
-	public void commitTransaction() {
-		transaction.commit();
-	}
+//	public void commitTransaction() {
+//		transaction.commit();
+//	}
 
 	public List<Curso> buscarPorRangoFechaInicio(LocalDate fechaDesde, LocalDate fechaHasta) {
 		System.out.println("Buscando cursos desde " + fechaDesde + " hasta " + fechaHasta);
@@ -97,5 +99,26 @@ public class CursoDAO {
 		query.setParameter("nivel", nivel);
 		query.setParameter("fechaDesde", fechaDesde);
 		return query.list();
+	}
+	
+	public void asignarAula(Long cursoId, Aula aula) {
+		Curso curso = obtenerCursoById(cursoId);
+		if(curso == null) {
+			throw new IllegalArgumentException("Curso no encontrado con el id "+ cursoId);
+		}
+		Aula aulaManaged = aula;
+		if(!session.contains(aula)) {
+			aulaManaged = session.get(Aula.class, aula.getId());
+		}
+		curso.setAula(aulaManaged);
+		session.merge(curso);
+//		transaction.commit();
+	
+	}
+
+	public boolean existsCursoWithAula(Long aulaId) {
+		Long count = session.createQuery("select count id from Curso where aula = :id", Long.class)
+				.setParameter("id", aulaId).getSingleResult();
+		return count != null && count >0;
 	}
 }

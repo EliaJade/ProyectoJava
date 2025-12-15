@@ -42,10 +42,10 @@ public class Main {
 
 	public static void insertarCursos() {
 		Curso curso1 = new Curso("123", "Curso de Floristeria", "Aprender a cuidar flores y montar ramos", 150, true,
-				Nivel.Básico, Categoria.Decoracion, 200, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
+				Nivel.BÁSICO, Categoria.DECORACION, 200, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
 				LocalDateTime.of(2023, 11, 20, 14, 30));
 		Curso curso2 = new Curso("456", "Curso de Peluqueria", "Aprender a cuidar, cortar y decorar pelo", 150, true,
-				Nivel.Avanzado, Categoria.Belleza, 150, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
+				Nivel.AVANZADO, Categoria.BELLEZA, 150, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
 				LocalDateTime.of(2023, 11, 20, 14, 30));
 		
 		List<Curso> cursos = new CopyOnWriteArrayList<Curso>();
@@ -191,7 +191,7 @@ public class Main {
 			
 			LocalDate fechaDesde = LocalDate.of(2025, 1, 2);
 			LocalDate fechaHasta = LocalDate.of(2025, 2, 1);
-			Categoria categoria = Categoria.Programación;
+			Categoria categoria = Categoria.PROGRAMACIÓN;
 			
 			List<Curso> cursos = dao.buscarPorCategoriaYFechaInicio(categoria, fechaDesde, fechaHasta);
 			cursos.forEach(curso -> System.out.println(curso));
@@ -201,7 +201,7 @@ public class Main {
 		public static void filtrarPorNivelHorasYFecha() {
 			CursoDAO dao = new CursoDAO();
 			LocalDate fechaDesde = LocalDate.of(2024, 1, 2);
-			Nivel nivel = Nivel.Básico;
+			Nivel nivel = Nivel.BÁSICO;
 			int horas =20;
 			
 			List<Curso> cursos = dao.buscarPorNivelHorasYFecha(fechaDesde, nivel, horas);

@@ -2,6 +2,7 @@ package es.cursojava.hibernate.ejercicios.ejercicio3.entities;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Locale.Category;
 
 import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Categoria;
 import es.cursojava.hibernate.ejercicios.ejercicio1.enums.Nivel;
@@ -77,7 +78,7 @@ public class Curso {
 	@Column(nullable = false)
 	private	LocalDateTime fechaCreacion = LocalDateTime.now() ;
 	
-	@OneToOne(cascade = CascadeType.ALL, mappedBy = "curso", fetch = FetchType.LAZY)
+	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	@JoinColumn(name = "aula_id")
 	private Aula aula;
 	
@@ -102,6 +103,21 @@ public class Curso {
 		this.fechaFin = fechaFin;
 		this.fechaCreacion = fechaCreacion;
 	}
+	public Curso(String codigo, String nombre, String description, int horasTotales, boolean activo, Nivel nivel,
+			Categoria categoria, double precio, LocalDate fechaInicio, LocalDate fechaFin, LocalDateTime fechaCreacion, Aula aula) {
+		super();
+		this.codigo = codigo;
+		this.nombre = nombre;
+		this.description = description;
+		this.horasTotales = horasTotales;
+		this.activo = activo;
+		this.nivel = nivel;
+		this.categoria = categoria;
+		this.precio = precio;
+		this.fechaInicio = fechaInicio;
+		this.fechaFin = fechaFin;
+		this.fechaCreacion = fechaCreacion;
+	}
 	
 	//no optional 
 	public Curso(String codigo, String nombre, int horasTotales, boolean activo, LocalDateTime fechaCreacion) {
@@ -112,6 +128,10 @@ public class Curso {
 		this.activo = activo;
 		this.fechaCreacion = fechaCreacion;
 	}
+
+	
+
+	
 
 	@Override
 	public String toString() {

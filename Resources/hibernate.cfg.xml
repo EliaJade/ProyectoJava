@@ -32,6 +32,8 @@
 <!--         <mapping class="es.cursojava.hibernate.Empresa" /> -->
 <!--         <mapping class="es.cursojava.hibernate.ejercicios.ejercicio1.entities.Curso"/> -->
         <mapping class="es.cursojava.hibernate.ejercicios.ejercicio2.entities.Empleado"/>
+        <mapping class="es.cursojava.hibernate.ejercicios.ejercicio3.entities.Curso"/>
+        <mapping class="es.cursojava.hibernate.ejercicios.ejercicio3.entities.Aula"/>
         
     </session-factory>
 </hibernate-configuration>
