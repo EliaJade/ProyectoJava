@@ -7,24 +7,34 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import es.cursojava.hibernate.ejercicios.ejercicio3.dtos.AulaDTO;
 import es.cursojava.hibernate.ejercicios.ejercicio3.dtos.CursoRequestDTO;
+import es.cursojava.hibernate.ejercicios.ejercicio3.dtos.CursoResponseDTO;
 import es.cursojava.hibernate.ejercicios.ejercicio3.entities.Aula;
 import es.cursojava.hibernate.ejercicios.ejercicio3.service.AulaService;
 import es.cursojava.hibernate.ejercicios.ejercicio3.service.CursoService;
 
 public class Main {
 
-	CursoService serviceC= new CursoService();
-	AulaService serviceA = new AulaService();
+	private CursoService serviceC= new CursoService();
+	private AulaService serviceA = new AulaService();
 
 	public static void main(String[] args) {
 		Main main= new Main();
 
-		main.crearCurso();
-		main.crearAula();
+		List<CursoResponseDTO> cursos = main.crearCurso();
+		List<AulaDTO> aulas = main.crearAula();
+		main.serviceC.asignarAula(cursos.get(0).id(), aulas.get(0).id());
+		main.serviceC.asignarAula(cursos.get(1).id(), aulas.get(0).id());
 
+		main.serviceC.asignarAula(cursos.get(2).id(), aulas.get(1).id());
+		
+		CursoResponseDTO curso1 = main.serviceC.obtenerCursoPorId(cursos.get(0).id());
+		CursoResponseDTO curso2 = main.serviceC.obtenerCursoPorId(cursos.get(1).id());
+		CursoResponseDTO curso3 = main.serviceC.obtenerCursoPorId(cursos.get(2).id());
+		System.out.println(curso1 +", "+ curso2+", "+ curso3 );
 	}
+
 	
-	public List<CursoRequestDTO> crearCurso() {
+	public List<CursoResponseDTO> crearCurso() {
 		CursoRequestDTO curso1 = new CursoRequestDTO("123", "Curso de Floristeria", "Aprender a cuidar flores y montar ramos", 150, true,
 				"Basico", "Decoracion", 200, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
 				LocalDateTime.of(2023, 11, 20, 14, 30));
@@ -34,18 +44,20 @@ public class Main {
 		CursoRequestDTO curso3 = new CursoRequestDTO("789", "Curso de Maquillaje", "Aprender a cuidar, maquillar y decorar la cara", 150, true,
 				"Avanzado", "Belleza", 150, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
 				LocalDateTime.of(2023, 11, 20, 14, 30));
-		List<CursoRequestDTO> cursos = new CopyOnWriteArrayList<CursoRequestDTO>();
+		List<CursoRequestDTO> cursos = new CopyOnWriteArrayList<>();
 		cursos.add(curso1);
 		cursos.add(curso2);
 		cursos.add(curso3);
+		List<CursoResponseDTO> cursosGuardados= new CopyOnWriteArrayList<CursoResponseDTO>();
 
 		System.out.println("Cursos dados de alta; " );
 		for (CursoRequestDTO curso : cursos) {
-//			serviceA.altaCurso(curso);
-			System.out.println(curso);
+			  CursoResponseDTO cursoGuardado = serviceC.altaCurso(curso); // capturamos el DTO con ID
+		      cursosGuardados.add(cursoGuardado);
+		      System.out.println(curso);
 		}
 		
-		return cursos;
+		return cursosGuardados;
 		
 	}
 	public List<AulaDTO> crearAula() {
@@ -55,12 +67,13 @@ public class Main {
 		List<AulaDTO> aulas = new CopyOnWriteArrayList<AulaDTO>();
 		aulas.add(aula1);
 		aulas.add(aula2);
-		System.out.println("Cursos dados de alta; " );
+		System.out.println("Aulas dados de alta; " );
 		for (AulaDTO aula : aulas) {
-			serviceC.altaCurso(aula);
+			serviceA.altaAula(aula);
 			System.out.println(aula);
 		}
 		return aulas;
 	}
+
 }
 

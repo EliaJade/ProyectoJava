@@ -1,6 +1,8 @@
 package es.cursojava.hibernate.ejercicios.ejercicio3.service;
 
 
+import java.util.Arrays;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -20,7 +22,7 @@ import es.cursojava.hibernate.utilidades.UtilidadesHibernate;
 public class CursoService {
 	
 	
-	public void altaCurso(CursoRequestDTO dto) {
+	public CursoResponseDTO altaCurso(CursoRequestDTO dto) {
 		validarCurso(dto);
 		
 		Session session = UtilidadesHibernate.getSessionFactory();
@@ -41,13 +43,26 @@ public class CursoService {
 			
 			if(tx.isActive()) {
 				tx.commit();
+
 			}
+
+			return mapToDTO(curso);
 		} catch(Exception e){
 			if(tx != null && tx.isActive()) {
 				tx.rollback();
 			}
 			throw e;
-		}
+		} 
+	}
+	
+	public CursoResponseDTO obtenerCursoPorId(Long id) {
+		Session session = UtilidadesHibernate.getSessionFactory();
+		
+			CursoDAO dao = new CursoDAO(session);
+			Curso curso = dao.obtenerCursoById(id);
+			return mapToDTO(curso);
+		
+		
 	}
 	
 	public CursoResponseDTO crearCursoConAula(CursoRequestDTO cursoDTO, AulaDTO aulaDTO) {
@@ -95,7 +110,10 @@ public class CursoService {
 			CursoDAO dao = new CursoDAO(session);
 			AulaDAO aulaDAO = new AulaDAO(session);
 			Aula aula = aulaDAO.obtenerAulaById(aulaId);
-			
+			Curso curso = dao.obtenerCursoById(cursoId);
+			if (curso == null) {
+                throw new IllegalArgumentException("No se ha encontrado un curso con el id " + cursoId);
+            }
 			if(aula==null) {
 				throw new IllegalArgumentException("No se ha encontrado una aula con el id "+ aulaId);
 			}
@@ -114,6 +132,8 @@ public class CursoService {
 		}
 		
 	}
+	
+	
 	
 	//-------------Maps-----------------
 	private Aula mapToEntity(AulaDTO dto) {
@@ -189,11 +209,34 @@ public class CursoService {
 					throw new IllegalArgumentException("El codigo del curso es obligatorio, no puede estar vacio y debe tener menos de 20 caracteres");
 				}
 				if(dto.nivel() == null) {
-					throw new IllegalArgumentException("\"Departamento invalido. Solo puede ser de: " + Nivel.AVANZADO + ", "+ Nivel.INTERMEDIO +", "+ Nivel.BÁSICO);
-				}
+					throw new IllegalArgumentException("\"Departamento invalido. Solo puede ser de: " + Nivel.AVANZADO + ", "+ Nivel.INTERMEDIO +", "+ Nivel.BASICO);
+				} 
+					else {
+		            try {
+		                Nivel.valueOf(dto.nivel().toUpperCase());
+		            } catch (IllegalArgumentException e) {
+		                throw new IllegalArgumentException("Nivel inválido: " + dto.nivel());
+		            }
+		        }
 				if(dto.categoria() == null) {
-					throw new IllegalArgumentException("\"Departamento invalido. Solo puede ser de: " + Categoria.ACCESO_A_DATOS + ", "+ Categoria.BACKEND +", "+ Categoria.BASES_DE_DATOS+", "+ Categoria.BELLEZA+", "+ Categoria.PROGRAMACIÓN+", "+ Categoria.DECORACION+", "+ Categoria.HERRAMIENTAS);
+					throw new IllegalArgumentException("\"Departamento invalido. Solo puede ser de: " + Arrays.toString(Nivel.values()));
 				}
+				else {
+		            try {
+		                Categoria.valueOf(dto.categoria().toUpperCase());
+		            } catch (IllegalArgumentException e) {
+		                throw new IllegalArgumentException("Categoría inválida: " + dto.categoria());
+		            }
+		        }
+				if (dto.precio() < 0) {
+		            throw new IllegalArgumentException("El precio no puede ser negativo");
+		        }
+
+		        if (dto.fechaInicio() != null && dto.fechaFin() != null &&
+		            dto.fechaInicio().isAfter(dto.fechaFin())) {
+		            throw new IllegalArgumentException("La fecha de inicio no puede ser posterior a la fecha de fin");
+		        }
+		    
 	}
 	
 

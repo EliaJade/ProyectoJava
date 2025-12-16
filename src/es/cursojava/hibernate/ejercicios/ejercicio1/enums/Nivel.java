@@ -2,7 +2,7 @@ package es.cursojava.hibernate.ejercicios.ejercicio1.enums;
 
 public enum Nivel {
 
-	BÁSICO, 
+	BASICO, 
 	INTERMEDIO,
 	AVANZADO
 }

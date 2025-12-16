@@ -6,4 +6,6 @@ public record AulaDTO(
 		Integer capacidad,
 		String ubicacion) {
 
+	
+
 }

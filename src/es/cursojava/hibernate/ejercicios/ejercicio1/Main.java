@@ -42,7 +42,7 @@ public class Main {
 
 	public static void insertarCursos() {
 		Curso curso1 = new Curso("123", "Curso de Floristeria", "Aprender a cuidar flores y montar ramos", 150, true,
-				Nivel.BÁSICO, Categoria.DECORACION, 200, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
+				Nivel.BASICO, Categoria.DECORACION, 200, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
 				LocalDateTime.of(2023, 11, 20, 14, 30));
 		Curso curso2 = new Curso("456", "Curso de Peluqueria", "Aprender a cuidar, cortar y decorar pelo", 150, true,
 				Nivel.AVANZADO, Categoria.BELLEZA, 150, LocalDate.of(2024, 8, 13), LocalDate.of(2024, 8, 13),
@@ -201,7 +201,7 @@ public class Main {
 		public static void filtrarPorNivelHorasYFecha() {
 			CursoDAO dao = new CursoDAO();
 			LocalDate fechaDesde = LocalDate.of(2024, 1, 2);
-			Nivel nivel = Nivel.BÁSICO;
+			Nivel nivel = Nivel.BASICO;
 			int horas =20;
 			
 			List<Curso> cursos = dao.buscarPorNivelHorasYFecha(fechaDesde, nivel, horas);
