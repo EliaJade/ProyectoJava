@@ -117,8 +117,8 @@ public class CursoDAO {
 	}
 
 	public boolean existsCursoWithAula(Long aulaId) {
-		Long count = session.createQuery("select count id from Curso where aula = :id", Long.class)
-				.setParameter("id", aulaId).getSingleResult();
+		Long count = session.createQuery("select count (c) from Curso c where c.aula.id = :aulaId", Long.class)
+				.setParameter("aulaId", aulaId).getSingleResult();
 		return count != null && count >0;
 	}
 }

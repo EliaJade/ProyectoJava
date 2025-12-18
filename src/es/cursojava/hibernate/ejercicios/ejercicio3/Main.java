@@ -8,7 +8,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import es.cursojava.hibernate.ejercicios.ejercicio3.dtos.AulaDTO;
 import es.cursojava.hibernate.ejercicios.ejercicio3.dtos.CursoRequestDTO;
 import es.cursojava.hibernate.ejercicios.ejercicio3.dtos.CursoResponseDTO;
-import es.cursojava.hibernate.ejercicios.ejercicio3.entities.Aula;
 import es.cursojava.hibernate.ejercicios.ejercicio3.service.AulaService;
 import es.cursojava.hibernate.ejercicios.ejercicio3.service.CursoService;
 
@@ -23,14 +22,14 @@ public class Main {
 		List<CursoResponseDTO> cursos = main.crearCurso();
 		List<AulaDTO> aulas = main.crearAula();
 		main.serviceC.asignarAula(cursos.get(0).id(), aulas.get(0).id());
-		main.serviceC.asignarAula(cursos.get(1).id(), aulas.get(0).id());
+		main.serviceC.asignarAula(cursos.get(1).id(), aulas.get(2).id());
 
 		main.serviceC.asignarAula(cursos.get(2).id(), aulas.get(1).id());
 		
 		CursoResponseDTO curso1 = main.serviceC.obtenerCursoPorId(cursos.get(0).id());
 		CursoResponseDTO curso2 = main.serviceC.obtenerCursoPorId(cursos.get(1).id());
 		CursoResponseDTO curso3 = main.serviceC.obtenerCursoPorId(cursos.get(2).id());
-		System.out.println(curso1 +", "+ curso2+", "+ curso3 );
+		System.out.println(curso1 +", \n "+ curso2+", \n"+ curso3 );
 	}
 
 	
@@ -54,7 +53,7 @@ public class Main {
 		for (CursoRequestDTO curso : cursos) {
 			  CursoResponseDTO cursoGuardado = serviceC.altaCurso(curso); // capturamos el DTO con ID
 		      cursosGuardados.add(cursoGuardado);
-		      System.out.println(curso);
+		      System.out.println(cursoGuardado);
 		}
 		
 		return cursosGuardados;
@@ -64,15 +63,20 @@ public class Main {
 		
 		AulaDTO aula1 = new AulaDTO(null, "1", 20, "Planta 2");
 		AulaDTO aula2 = new AulaDTO(null, "2", 30, "Planta 1");
+		AulaDTO aula3 = new AulaDTO(null, "3", 30, "Planta 3");
 		List<AulaDTO> aulas = new CopyOnWriteArrayList<AulaDTO>();
 		aulas.add(aula1);
 		aulas.add(aula2);
+		aulas.add(aula3);
+		List<AulaDTO> aulasGuardadas = new CopyOnWriteArrayList<AulaDTO>();
 		System.out.println("Aulas dados de alta; " );
 		for (AulaDTO aula : aulas) {
-			serviceA.altaAula(aula);
-			System.out.println(aula);
+			AulaDTO aulaGuardado = serviceA.altaAula(aula);
+			aulasGuardadas.add(aulaGuardado);
+			
+			System.out.println(aulaGuardado);
 		}
-		return aulas;
+		return aulasGuardadas;
 	}
 
 }

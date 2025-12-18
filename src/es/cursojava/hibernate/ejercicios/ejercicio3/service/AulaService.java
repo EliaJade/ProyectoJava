@@ -12,11 +12,12 @@ import es.cursojava.hibernate.utilidades.UtilidadesHibernate;
 
 public class AulaService {
 
-	public void altaAula(AulaDTO dto) {
+	public AulaDTO altaAula(AulaDTO dto) {
 			validarAula(dto);
 		
 		Session session = UtilidadesHibernate.getSessionFactory();
 		Transaction tx = null;
+		AulaDTO aulaConId;
 		try {
 			if(!session.getTransaction().isActive()){
 				tx = session.beginTransaction();
@@ -30,6 +31,8 @@ public class AulaService {
 			Aula aula = mapToEntity(dto);
 	
 			dao.guardarAula(aula);
+			aulaConId = new AulaDTO(aula.getId(), dto.codigo(), dto.capacidad(), dto.ubicacion());
+
 			
 			if(tx.isActive()) {
 				tx.commit();
@@ -40,6 +43,7 @@ public class AulaService {
 			}
 			throw e;
 		}
+		return aulaConId;
 	
 			
 	}
