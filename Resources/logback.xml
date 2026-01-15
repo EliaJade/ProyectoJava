@@ -21,8 +21,13 @@
 		<appender-ref ref="STDOUT" />
 	</logger>
 	
-	<!-- Sólo errores de Hibernate -->
+<!-- Sólo errores de Hibernate -->
 	<logger name="org.mongodb" level="ERROR" additivity="false">
+		<appender-ref ref="STDOUT" />
+	</logger>
+	
+<!-- Sólo errores de Spring -->
+	<logger name="org.springframework" level="ERROR" additivity="false">
 		<appender-ref ref="STDOUT" />
 	</logger>
 
