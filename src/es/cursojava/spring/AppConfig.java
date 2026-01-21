@@ -2,6 +2,7 @@ package es.cursojava.spring;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @ComponentScan(basePackages = "es.cursojava.spring.beans")
@@ -12,6 +13,7 @@ import org.springframework.context.annotation.Configuration;
 	  "com.demo.repo",
 	  "com.demo.web"
 	})*/
+@EnableAspectJAutoProxy
 public class AppConfig {
 
 }

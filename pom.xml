@@ -97,11 +97,19 @@
     		<artifactId>mongodb-driver-sync</artifactId>
   			<version>5.6.2</version>
 		</dependency>
-		
-		
-		
-		
-		
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+			 <!-- or your Spring version -->
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			 <!-- match your Spring version -->
+		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
